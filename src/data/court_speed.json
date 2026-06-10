@@ -2803,7 +2803,8 @@
    "holdPct": 0.735,
    "rallyLength": 4.62,
    "rad": 0.9835,
-   "cpiSource": "https://i.postimg.cc/L5rcd9D5/Screenshot-2026-04-11-at-12-58-30.png"
+   "cpiSource": "https://i.postimg.cc/L5rcd9D5/Screenshot-2026-04-11-at-12-58-30.png",
+   "cpiSourceLocal": "/sources/monte-carlo-2026.png"
   },
   {
    "tournament": "Madrid",
