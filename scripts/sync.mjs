@@ -23,6 +23,10 @@ const ROOT = join(__dirname, '..');
 const SHEET_ID = '1artEsVLOOjwSEafl4RfMnLhfEUnsQKa7aQNIyaPVnLI';
 const XLSX_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=xlsx`;
 const YEARS = Array.from({ length: 15 }, (_, i) => 2012 + i);
+const HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36',
+  'Accept': '*/*',
+};
 const CANON = new Map([
   ['toronto', 'Canadian Open'], ['montreal', 'Canadian Open'],
   ['toronto/montreal', 'Canadian Open'], ['montreal/toronto', 'Canadian Open'],
@@ -54,12 +58,32 @@ async function loadWorkbook() {
     return XLSX.read(readFileSync(process.env.SYNC_XLSX), { type: 'buffer' });
   }
   console.log('fetching sheet xlsx export…');
-  const res = await fetch(XLSX_URL, { redirect: 'follow' });
-  if (!res.ok) throw new Error(`sheet fetch failed: ${res.status}`);
+  const res = await fetch(XLSX_URL, { redirect: 'follow', headers: HEADERS });
+  if (!res.ok) throw new Error(`xlsx export failed: ${res.status}`);
   return XLSX.read(Buffer.from(await res.arrayBuffer()), { type: 'buffer' });
 }
 
-const wb = await loadWorkbook();
+/** Fallback: per-tab gviz CSV. Reliable from datacenter IPs, but strips
+ *  cell hyperlinks — those are inherited from the previous committed JSON. */
+async function loadWorkbookGviz() {
+  console.log('xlsx export blocked — falling back to per-tab gviz CSV…');
+  const wb = { Sheets: {} };
+  for (const year of YEARS) {
+    const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent('CPI ' + year)}`;
+    const res = await fetch(url, { redirect: 'follow', headers: HEADERS });
+    if (!res.ok) { console.warn(`gviz CPI ${year}: ${res.status}`); continue; }
+    wb.Sheets[`CPI ${year}`] = XLSX.read(await res.text(), { type: 'string' }).Sheets.Sheet1;
+  }
+  return wb;
+}
+
+let wb;;
+try {
+  wb = await loadWorkbook();
+} catch (e) {
+  console.warn(String(e));
+  wb = await loadWorkbookGviz();
+}
 const data = {};
 for (const year of YEARS) {
   const ws = wb.Sheets[`CPI ${year}`];
@@ -91,6 +115,24 @@ for (const year of YEARS) {
     });
   });
   data[year] = out;
+}
+
+// ---- inherit source links from the previous sync when this run lacks them ----
+const outPathPrev = join(ROOT, 'src', 'data', 'court_speed.json');
+if (existsSync(outPathPrev)) {
+  try {
+    const prev = JSON.parse(readFileSync(outPathPrev, 'utf8'));
+    const prevMap = new Map();
+    for (const [y, recs] of Object.entries(prev))
+      for (const p of recs) if (p.cpiSource) prevMap.set(`${p.tournament}|${y}`, p.cpiSource);
+    let inherited = 0;
+    for (const [y, recs] of Object.entries(data))
+      for (const r of recs) {
+        const old = prevMap.get(`${r.tournament}|${y}`);
+        if (!r.cpiSource && old) { r.cpiSource = old; inherited++; }
+      }
+    if (inherited) console.log(`inherited ${inherited} source links from previous sync`);
+  } catch { /* stub or corrupt previous file — ignore */ }
 }
 
 // ---- mirror source images ----
