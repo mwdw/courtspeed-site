@@ -1,0 +1,31 @@
+# Sheet sync: every 15 minutes, fetch the Google Sheet and commit the data
+# ONLY if it actually changed. Cloudflare Pages watches the repo, so a data
+# commit triggers a deploy; no change = no commit = no build consumed.
+# No secrets or tokens required — uses the repo's own automatic credentials.
+name: sheet-sync
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install --ignore-scripts --no-audit --no-fund
+      - run: node scripts/sync.mjs
+      - name: commit if data changed
+        run: |
+          git add src/data/court_speed.json public/sources
+          if git diff --cached --quiet; then
+            echo "sheet unchanged — no deploy"
+          else
+            git config user.name "sheet-sync"
+            git config user.email "actions@github.com"
+            git commit -m "data: sheet sync $(date -u +'%Y-%m-%d %H:%M')"
+            git push
+          fi
