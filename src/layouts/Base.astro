@@ -1,0 +1,117 @@
+---
+import '../styles/global.css';
+import { clientPayload } from '../lib/data.mjs';
+import { sidebar, logoSvg } from '../lib/render.mjs';
+
+interface Props {
+  title?: string;
+  description?: string;
+  path: string;          // current route, e.g. '/ace-rate'
+  showBar?: boolean;     // surface filters + search
+}
+const {
+  title = 'Court Speed — Court Pace Index database, 2012–2026',
+  description = 'Court Pace Index (CPI), ace rates, rally lengths and air density for the Grand Slams, Masters 1000s and ATP Finals, 2012–2026.',
+  path,
+  showBar = true,
+} = Astro.props;
+
+const NAV = [
+  ['/', 'CPI'],
+  ['/ace-rate', 'Ace rate'],
+  ['/rally-length', 'Rally length'],
+  ['/weather-altitude', 'Weather & altitude'],
+  ['/overall-speed-rating', 'Overall speed rating'],
+  ['/champions', 'Champions'],
+  ['/balls', 'Balls'],
+  ['/trends', 'Trends'],
+  ['/method-notes', 'Method & notes'],
+];
+const side = sidebar();
+const payload = JSON.stringify(clientPayload());
+const updated = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="icon" type="image/svg+xml" href="/courtspeed-logo.svg" />
+<link rel="apple-touch-icon" href="/courtspeed-favicon-512.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<script is:inline>
+/* set theme before paint to avoid flash */
+document.documentElement.dataset.theme =
+  localStorage.getItem('cs-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+</script>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="topline">
+    <span class="feat">As featured in <a href="https://www.nytimes.com/athletic/6682720/2025/10/06/tennis-court-speed-federer-zverev-sinner-alcaraz/" rel="noopener">The New York Times</a> &amp; <a href="https://www.bbc.co.uk/sport/tennis/articles/cx2797zdke0o" rel="noopener">BBC</a></span>
+    <button id="theme" title="Toggle dark mode">☾</button>
+  </div>
+  <div class="brand"><Fragment set:html={logoSvg('mark')} /><h1>Court Speed</h1></div>
+  <p class="sub">Court Pace Index measurements for the Grand Slams, Masters 1000s and ATP Finals,
+  <b>2012–2026</b> — with ace rates, rally lengths and air density. Updated through the season,
+  sourced from official ATP/TennisTV data.</p>
+  <nav>
+    {NAV.map(([href, label]) => <a href={href} class={path === href ? 'on' : ''}>{label}</a>)}
+  </nav>
+</header>
+
+<div class="cols">
+<main>
+  {showBar && (
+    <div class="bar">
+      <div class="filters">
+        <button class="on" data-s="">All surfaces</button>
+        <button data-s="Hard">Hard</button>
+        <button data-s="Clay">Clay</button>
+        <button data-s="Grass">Grass</button>
+      </div>
+      <input id="q" type="search" placeholder="Search tournaments…" aria-label="Search tournaments" />
+    </div>
+  )}
+  <slot />
+</main>
+
+<aside>
+  <section><h2>Fastest · last 12 months</h2><ul set:html={side.fast} /></section>
+  <section><h2>Slowest · last 12 months</h2><ul set:html={side.slow} /></section>
+  <section><h2>About CPI</h2>
+    <p>CPI = 100(1−μ) + 150(0.81−e), from surface friction and restitution. Values are usually centre
+    court readings; CPI alone is noisy, so we also track ace rate, rally length and air density.
+    <a href="/method-notes">Full method →</a></p>
+  </section>
+  <section><h2>Tour trend · last 5 seasons</h2><ul set:html={side.trend} /></section>
+</aside>
+</div>
+
+<footer>
+  <div class="fgrid">
+    <div class="cred"><span>Built by</span><a href="https://x.com/mattracquet">@mattracquet</a></div>
+    <div class="cred"><span>Data</span><a href="https://docs.google.com/spreadsheets/d/1artEsVLOOjwSEafl4RfMnLhfEUnsQKa7aQNIyaPVnLI/">The Racquet ATP Court Speed Database</a> · auto-synced</div>
+    <div class="cred"><span>Ace rates</span><a href="https://tennisabstract.com">TennisAbstract</a></div>
+    <div class="cred"><span>Rally length</span><a href="https://x.com/tennis_insights">@Tennis_Insights</a> (ATP) · IBM (Wimbledon)</div>
+    <div class="cred"><span>Air density</span><a href="https://open-meteo.com">Open-Meteo</a></div>
+    <div class="cred"><span>Updated</span>{updated}</div>
+  </div>
+  <div class="legal">
+    <a href="/disclaimer">Disclaimer</a><a href="/privacy">Privacy</a><a href="mailto:infotheracquet@gmail.com">Contact</a>
+    <span>© {new Date().getFullYear()} Court Speed. Educational use only.</span>
+  </div>
+</footer>
+</div>
+
+<div id="tip"></div>
+<div id="modalbg"><div id="modal"><button id="mclose">×</button><div id="mbody"></div></div></div>
+
+<script type="application/json" id="cs-data" set:html={payload} />
+<script src="/app.js" defer is:inline></script>
+</body>
+</html>
