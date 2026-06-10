@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import { matrix, thRow, LEGEND } from '../lib/render.mjs';
+---
+<Base path="/" title="Tennis Court Speed | Court Pace Index (CPI) Database 2012–2026">
+  <div class="tablewrap"><table>
+    <thead set:html={thRow('Average of available CPI, 2023–2026')} />
+    <tbody set:html={matrix('cpi', { avg: true })} />
+  </table></div>
+  <div class="legend">
+    <span class="lt">CPI</span><Fragment set:html={LEGEND.cpi} />
+    <span class="meta">– no data · <b style="font-size:9px;letter-spacing:.08em">COVID</b> cancelled ·
+    <span class="vcmark"></span> venue change · ▪ source chart · click any value</span>
+  </div>
+</Base>

@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';
+import { matrix, thRow } from '../lib/render.mjs';
+---
+<Base path="/champions" title="ATP Champions by Tournament 2012–2026 | Court Speed">
+  <div class="tablewrap"><table>
+    <thead set:html={thRow()} />
+    <tbody set:html={matrix('champions')} />
+  </table></div>
+  <div class="legend"><span><span class="vcmark"></span> venue change</span></div>
+</Base>

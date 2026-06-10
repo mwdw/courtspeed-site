@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base path="/method-notes" showBar={false} title="Method & Notes | Court Speed">
+<div class="prose">
+<h2>What CPI is — and isn’t</h2>
+<p>The Court Pace Index (CPI) has obvious limitations. It doesn’t fully account for every variable that
+affects perceived speed, but it’s more dynamic than Court Pace Rating (CPR), which is measured by firing a
+no-spin ball at a uniform angle at the surface under controlled conditions.</p>
+<p>CPR is fine as a standardised metric — but no professional hits a perfectly flat ball (spin rates are
+very high), and spin and angle of incidence affect bounce and perceived speed differently on different
+surfaces. Taking a mixture of CPI, adjusted ace rates, rally length, and relative air density — while still
+occasionally noisy — is probably the best overall proxy for court speed and conditions.</p>
+<h2>Formula</h2>
+<p class="formula">CPI = 100(1−μ) + 150(0.81−e)</p>
+<p>where μ is the coefficient of friction and e the coefficient of restitution.
+CPI values are taken directly from official ATP/TennisTV CPI charts. Figures from 2012–2015 aren’t widely
+available. Where charts disagree (CPI drifts within a tournament as grit wears and weather varies), the
+tournament average is preferred, or multiple day readings are averaged.</p>
+<h2>Reading the numbers</h2>
+<ul>
+<li>Ace rate, breaks of serve and return points won are main-draw figures only.</li>
+<li>CPI values are almost always centre/stadium court readings.</li>
+<li>Sea-level clay is basically always slow, so CPI changes there are small and usually weather-related.</li>
+<li>Elevation is taken from topographic maps at the precise location of the main stadium.</li>
+<li>Source screenshots are linked where available — hover any CPI value (or tap, on mobile).</li>
+</ul>
+<h2>Relative air density (RAD)</h2>
+<p>RAD measures how dense or “heavy” the air is, which affects ball speed and bounce. It’s calculated from
+air pressure, temperature and humidity across actual tournament dates and playing hours (11am–10pm),
+expressed as a percentage of standard sea-level density (1.225 kg/m³ at 15°C).</p>
+<p>RAD explains conditions differences CPI misses: Toronto and Montreal use near-identical courts but
+Toronto consistently plays faster (altitude and temperature). Madrid’s high ace rate and short rallies
+aren’t captured by CPI alone — its thin air at 562m is. The 2023 US Open heatwave is visible in that
+year’s RAD. Indoor events (Paris, ATP Finals) are excluded — indoor temperatures differ meaningfully
+from outdoor readings.</p>
+<h2>Overall speed rating (OSR)</h2>
+<p>A composite of CPI, ace rate, rally length and RAD with surface-specific adjustments (clay −5, grass +5).
+Requires at least 3 of 4 metrics; each is scored 0–100 by continuous interpolation, then averaged. AFAIK
+it’s the only court-speed rating that explicitly accounts for weather and altitude. Its main limitation:
+it’s a relative measure across this set of tournaments, not an absolute scale. Recent years with all four
+metrics are most accurate.</p>
+<h2>Quirks worth knowing</h2>
+<ul>
+<li>The ATP Finals sample is just 8 players in round-robin — more prone to skew. Its ace rate has been
+extremely high since moving to Turin (altitude), yet medium-length rallies remain common: the top 8 are
+usually elite returners and baseliners, so anything returnable gets extended.</li>
+<li>Montreal/Toronto alternates every other year.</li>
+<li>Some events (Bogotá WTA, Gstaad ATP) use high-altitude balls; no Masters or Slam does — not even Madrid.
+For comparison: Bogotá’s daytime RAD is 0.76–0.78 against Madrid’s 0.91 average.</li>
+</ul>
+<h2>Contact</h2>
+<p>Questions: <a href="https://x.com/mattracquet">@mattracquet</a> or infotheracquet [at] gmail [dot] com.</p>
+</div>
+</Base>

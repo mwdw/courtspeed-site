@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import { matrix, thRow, LEGEND } from '../lib/render.mjs';
+---
+<Base path="/weather-altitude" title="Weather, Altitude & Air Density by Tournament | Court Speed">
+  <div class="tablewrap"><table>
+    <thead set:html={thRow('Average of available RAD, 2023–2026')} />
+    <tbody set:html={matrix('conditions', { avg: true })} />
+  </table></div>
+  <div class="legend">
+    <span class="lt">Air density (RAD)</span><span style="color:var(--ink3)">← slower</span><Fragment set:html={LEGEND.rad} /><span style="color:var(--ink3)">faster →</span>
+    <span class="meta">Relative air density: 1.000 = standard sea-level air (1.225 kg/m³ at 15°C) · from temperature, pressure &amp; humidity over actual tournament dates · indoor events excluded · <span class="vcmark"></span> venue change</span>
+  </div>
+</Base>

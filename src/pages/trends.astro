@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base path="/trends" title="Court Speed Trends by Tournament | Court Speed">
+  <div class="mtabs" id="mtabs">
+    <button class="on" data-m="cpi">CPI</button>
+    <button data-m="aceRate">Ace rate</button>
+    <button data-m="rallyLength">Rally length</button>
+  </div>
+  <div id="trendgrid"></div>
+  <div class="legend"><span><span class="vcmark"></span> venue change · dots are recorded values, line breaks are missing seasons ·
+  y-scale fixed per metric · click a graph to enlarge</span></div>
+</Base>

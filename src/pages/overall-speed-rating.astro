@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import { matrix, thRow } from '../lib/render.mjs';
+---
+<Base path="/overall-speed-rating" title="Overall Court Speed Ratings 2012–2026 | Court Speed">
+  <div class="tablewrap"><table>
+    <thead set:html={thRow()} />
+    <tbody set:html={matrix('osr')} />
+  </table></div>
+  <p id="osrnote">Composite of CPI, ace rate, rally length &amp; RAD (min 3 of 4 required), each interpolated 0–100,
+  averaged, with surface adjustments (clay −5, grass +5). Blank cells lack sufficient metrics. <span class="vcmark"></span> venue change</p>
+</Base>

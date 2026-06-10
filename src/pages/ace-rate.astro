@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import { matrix, thRow, LEGEND } from '../lib/render.mjs';
+---
+<Base path="/ace-rate" title="ATP Ace Rates by Tournament 2012–2026 | Court Speed">
+  <div class="tablewrap"><table>
+    <thead set:html={thRow('Average of available ace rates, 2023–2026')} />
+    <tbody set:html={matrix('ace', { avg: true })} />
+  </table></div>
+  <div class="legend">
+    <span class="lt">Ace rate %</span><Fragment set:html={LEGEND.ace} />
+    <span class="meta">Ace rate, adjusted for servers and returners — <a href="https://tennisabstract.com" target="_blank" rel="noopener">TennisAbstract</a> · <span class="vcmark"></span> venue change</span>
+  </div>
+</Base>

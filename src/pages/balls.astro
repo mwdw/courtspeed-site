@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';
+import { matrix, thRow } from '../lib/render.mjs';
+---
+<Base path="/balls" title="ATP Ball Types by Tournament 2012–2026 | Court Speed">
+  <div class="tablewrap"><table>
+    <thead set:html={thRow()} />
+    <tbody set:html={matrix('balls', { ballmarks: true, novc: true })} />
+  </table></div>
+  <div class="legend"><span><span class="bcmark"></span> ball change (hover for detail) · * = new ball that year</span></div>
+</Base>

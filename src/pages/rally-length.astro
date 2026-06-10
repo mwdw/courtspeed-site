@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import { matrix, thRow, LEGEND } from '../lib/render.mjs';
+---
+<Base path="/rally-length" title="ATP Rally Lengths by Tournament 2012–2026 | Court Speed">
+  <div class="tablewrap"><table>
+    <thead set:html={thRow('Average of available rally lengths, 2023–2026')} />
+    <tbody set:html={matrix('rally', { avg: true })} />
+  </table></div>
+  <div class="legend">
+    <span class="lt">Rally length</span><Fragment set:html={LEGEND.rally} />
+    <span class="meta">Average rally length, shots per point — <a href="https://x.com/tennis_insights" target="_blank" rel="noopener">Tennis Insights</a> · shorter = faster · <span class="vcmark"></span> venue change</span>
+  </div>
+</Base>
