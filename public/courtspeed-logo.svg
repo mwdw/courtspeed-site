@@ -1,0 +1,8 @@
+<svg  viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Court Speed">
+<defs><linearGradient id="csramp" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#c4683f"/><stop offset=".5" stop-color="#cbb31a"/><stop offset="1" stop-color="#3f9e58"/>
+</linearGradient></defs>
+<path d="M7 14 Q 19 49 30 50 Q 42 51 55 20" fill="none" stroke="url(#csramp)" stroke-width="5.5" stroke-linecap="round"/>
+<circle cx="56.5" cy="15" r="4.6" fill="#3f9e58"/>
+<line x1="9" y1="59" x2="55" y2="59" stroke="#1f1d1a" stroke-width="3.6" stroke-linecap="round" opacity=".85"/>
+</svg>
