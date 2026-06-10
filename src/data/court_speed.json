@@ -1,17 +1,388 @@
 {
- "2012": [],
- "2013": [],
- "2014": [],
- "2015": [],
- "2016": [],
- "2017": [],
- "2018": [],
- "2019": [],
- "2020": [],
- "2021": [],
- "2022": [],
- "2023": [],
- "2024": [],
- "2025": [],
- "2026": []
+ "2012": [
+  {
+   "tournament": "Paris",
+   "cpiSource": "https://pbs.twimg.com/media/Cwb_vynXUAAYMw1.jpg"
+  },
+  {
+   "tournament": "ATP Finals",
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+  }
+ ],
+ "2013": [
+  {
+   "tournament": "Miami",
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png"
+  },
+  {
+   "tournament": "Paris",
+   "cpiSource": "https://pbs.twimg.com/media/Cwb_vynXUAAYMw1.jpg"
+  },
+  {
+   "tournament": "ATP Finals",
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+  }
+ ],
+ "2014": [
+  {
+   "tournament": "Miami",
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png"
+  },
+  {
+   "tournament": "Paris",
+   "cpiSource": "https://pbs.twimg.com/media/Cwb_vynXUAAYMw1.jpg"
+  },
+  {
+   "tournament": "ATP Finals",
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+  }
+ ],
+ "2015": [
+  {
+   "tournament": "Miami",
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png"
+  },
+  {
+   "tournament": "Paris",
+   "cpiSource": "https://pbs.twimg.com/media/Cwb_vynXUAAYMw1.jpg"
+  },
+  {
+   "tournament": "ATP Finals",
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+  }
+ ],
+ "2016": [
+  {
+   "tournament": "Indian Wells",
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg"
+  },
+  {
+   "tournament": "Miami",
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png"
+  },
+  {
+   "tournament": "Monte Carlo",
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg"
+  },
+  {
+   "tournament": "Madrid",
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg"
+  },
+  {
+   "tournament": "Rome",
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg"
+  },
+  {
+   "tournament": "Canadian Open",
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg"
+  },
+  {
+   "tournament": "Cincinnati",
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg"
+  },
+  {
+   "tournament": "Shanghai",
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg"
+  },
+  {
+   "tournament": "Paris",
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg"
+  },
+  {
+   "tournament": "ATP Finals",
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+  }
+ ],
+ "2017": [
+  {
+   "tournament": "Australian Open",
+   "cpiSource": "https://i.redd.it/23wkuqizk9i91.png"
+  },
+  {
+   "tournament": "Indian Wells",
+   "cpiSource": "https://i.redd.it/juu06mab82i91.png"
+  },
+  {
+   "tournament": "Miami",
+   "cpiSource": "https://i.snipboard.io/DOWfl7.jpg"
+  },
+  {
+   "tournament": "Monte Carlo",
+   "cpiSource": "https://i.redd.it/juu06mab82i91.png"
+  },
+  {
+   "tournament": "Madrid",
+   "cpiSource": "https://i.redd.it/juu06mab82i91.png"
+  },
+  {
+   "tournament": "Rome",
+   "cpiSource": "https://i.redd.it/juu06mab82i91.png"
+  },
+  {
+   "tournament": "Roland Garros",
+   "cpiSource": "https://i.redd.it/23wkuqizk9i91.png"
+  },
+  {
+   "tournament": "Wimbledon",
+   "cpiSource": "https://i.redd.it/23wkuqizk9i91.png"
+  },
+  {
+   "tournament": "Canadian Open",
+   "cpiSource": "https://i.redd.it/juu06mab82i91.png"
+  },
+  {
+   "tournament": "Cincinnati",
+   "cpiSource": "https://i.redd.it/juu06mab82i91.png"
+  },
+  {
+   "tournament": "US Open",
+   "cpiSource": "https://preview.redd.it/fcxfpqizk9i91.png?width=640&crop=smart&auto=webp&s=867510da064b75050c0255fb7e8dabd5dd4d9899"
+  },
+  {
+   "tournament": "Shanghai",
+   "cpiSource": "https://i.redd.it/juu06mab82i91.png"
+  },
+  {
+   "tournament": "Paris",
+   "cpiSource": "https://i.redd.it/juu06mab82i91.png"
+  },
+  {
+   "tournament": "ATP Finals",
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+  }
+ ],
+ "2018": [
+  {
+   "tournament": "Indian Wells",
+   "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg"
+  },
+  {
+   "tournament": "Miami",
+   "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg"
+  },
+  {
+   "tournament": "Monte Carlo",
+   "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg"
+  },
+  {
+   "tournament": "Madrid",
+   "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg"
+  },
+  {
+   "tournament": "Rome",
+   "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg"
+  },
+  {
+   "tournament": "Canadian Open",
+   "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg"
+  },
+  {
+   "tournament": "Cincinnati",
+   "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg"
+  },
+  {
+   "tournament": "ATP Finals",
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+  }
+ ],
+ "2019": [
+  {
+   "tournament": "Madrid",
+   "cpiSource": "https://i.postimg.cc/YSpy1tyf/IMG-0536.jpg"
+  }
+ ],
+ "2020": [
+  {
+   "tournament": "Australian Open",
+   "cpiSource": "https://preview.redd.it/fcxfpqizk9i91.png?width=640&crop=smart&auto=webp&s=867510da064b75050c0255fb7e8dabd5dd4d9899"
+  },
+  {
+   "tournament": "US Open",
+   "cpiSource": "https://preview.redd.it/fcxfpqizk9i91.png?width=640&crop=smart&auto=webp&s=867510da064b75050c0255fb7e8dabd5dd4d9899"
+  }
+ ],
+ "2021": [
+  {
+   "tournament": "Australian Open",
+   "cpiSource": "https://preview.redd.it/fcxfpqizk9i91.png?width=640&crop=smart&auto=webp&s=867510da064b75050c0255fb7e8dabd5dd4d9899"
+  },
+  {
+   "tournament": "Indian Wells",
+   "cpiSource": "https://pbs.twimg.com/media/FBhErY7XIA0sj_o?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Canadian Open",
+   "cpiSource": "https://pbs.twimg.com/media/E8rqcKOX0AE4Yk3?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Cincinnati",
+   "cpiSource": "https://pbs.twimg.com/media/E9AC5iZXoAIiYEV?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Paris",
+   "cpiSource": "https://i.ibb.co/HTtgtNGV/the-process-of-speeding-up-the-courts-in-recent-years-v0-vsmwm7hp4pxd1.jpg"
+  },
+  {
+   "tournament": "ATP Finals",
+   "cpiSource": "https://i.ibb.co/mVXz87dy/Untitled-2.jpg"
+  }
+ ],
+ "2022": [
+  {
+   "tournament": "Canadian Open",
+   "cpiSource": "https://pbs.twimg.com/media/FaJZyB-WQAAAm0v?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Cincinnati",
+   "cpiSource": "https://pbs.twimg.com/media/FatjyGTX0AM5qSG?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Paris",
+   "cpiSource": "https://i.ibb.co/HTtgtNGV/the-process-of-speeding-up-the-courts-in-recent-years-v0-vsmwm7hp4pxd1.jpg"
+  },
+  {
+   "tournament": "ATP Finals",
+   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png"
+  }
+ ],
+ "2023": [
+  {
+   "tournament": "Indian Wells",
+   "cpiSource": "https://pbs.twimg.com/media/Fq9hR1fXgAQ679l?format=jpg&name=large"
+  },
+  {
+   "tournament": "Miami",
+   "cpiSource": "https://pbs.twimg.com/media/FsuaOFMX0AAGgfD?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Monte Carlo",
+   "cpiSource": "https://pbs.twimg.com/media/FtdGSK-X0CMYpuU?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Madrid",
+   "cpiSource": "https://pbs.twimg.com/media/FvXrnmJXwAAtMqs?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Rome",
+   "cpiSource": "https://pbs.twimg.com/media/FwqaEaCX0AEQVzU?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Canadian Open",
+   "cpiSource": "https://pbs.twimg.com/media/F3cAvIRWwAAeStH?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Cincinnati",
+   "cpiSource": "https://pbs.twimg.com/media/F4BdhctXsAAFK3S?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Shanghai",
+   "cpiSource": "https://pbs.twimg.com/media/F8Ig2fiXMAAv2Ce?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Paris",
+   "cpiSource": "https://i.ibb.co/HTtgtNGV/the-process-of-speeding-up-the-courts-in-recent-years-v0-vsmwm7hp4pxd1.jpg"
+  },
+  {
+   "tournament": "ATP Finals",
+   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png"
+  }
+ ],
+ "2024": [
+  {
+   "tournament": "Indian Wells",
+   "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4"
+  },
+  {
+   "tournament": "Miami",
+   "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4"
+  },
+  {
+   "tournament": "Monte Carlo",
+   "cpiSource": "https://pbs.twimg.com/media/GLDXU6SWoAEGQO4?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Madrid",
+   "cpiSource": "https://pbs.twimg.com/media/GMAPztQWAAA-UZY?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Rome",
+   "cpiSource": "https://pbs.twimg.com/media/GNh4MmTWoAAZf05?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Canadian Open",
+   "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4"
+  },
+  {
+   "tournament": "Cincinnati",
+   "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4"
+  },
+  {
+   "tournament": "Shanghai",
+   "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4"
+  },
+  {
+   "tournament": "Paris",
+   "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4"
+  },
+  {
+   "tournament": "ATP Finals",
+   "cpiSource": "https://i.ibb.co/mVXz87dy/Untitled-2.jpg"
+  }
+ ],
+ "2025": [
+  {
+   "tournament": "Indian Wells",
+   "cpiSource": "https://pbs.twimg.com/media/GmG_y-iW4AEkmVf?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Miami",
+   "cpiSource": "https://preview.redd.it/miami-2025-vs-2024-v0-81q10g65mvpe1.jpg?width=2048&format=pjpg&auto=webp&s=086b344436b18fcb55f465b8d29a0597bf0207e9"
+  },
+  {
+   "tournament": "Monte Carlo",
+   "cpiSource": "https://pbs.twimg.com/media/GoVIXpfXgAAPuYw?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Madrid",
+   "cpiSource": "https://pbs.twimg.com/media/Gp8zfKQXcAAFpGs?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Rome",
+   "cpiSource": "https://pbs.twimg.com/media/Gqk42zUXEAAAEKe?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Canadian Open",
+   "cpiSource": "https://pbs.twimg.com/media/GxkcovhWoAAuCzL?format=jpg&name=large"
+  },
+  {
+   "tournament": "Cincinnati",
+   "cpiSource": "https://pbs.twimg.com/media/GyQDjTgWgAElTuu?format=jpg&name=medium"
+  },
+  {
+   "tournament": "Shanghai",
+   "cpiSource": "https://i.ibb.co/hhSf1B4/G2-UVFo-CXAAEFj-PO-1.jpg"
+  },
+  {
+   "tournament": "Paris",
+   "cpiSource": "https://i.ibb.co/rGbdJVYm/Untitled-2xxx.jpg"
+  },
+  {
+   "tournament": "ATP Finals",
+   "cpiSource": "https://i.ibb.co/VYv3rNzM/Untitled-2sss.jpg"
+  }
+ ],
+ "2026": [
+  {
+   "tournament": "Indian Wells",
+   "cpiSource": "https://i.ibb.co/vfsGdzb/IW-2026-Day-1-and-avg-CPI.jpg"
+  },
+  {
+   "tournament": "Miami",
+   "cpiSource": "https://i.postimg.cc/K8mzqgS7/Screenshot-2026-03-26-at-17-46-30.png"
+  },
+  {
+   "tournament": "Monte Carlo",
+   "cpiSource": "https://i.postimg.cc/L5rcd9D5/Screenshot-2026-04-11-at-12-58-30.png"
+  }
+ ]
 }
