@@ -11,9 +11,9 @@ const fmtRad = v => v.toFixed(3);
 
 export const VIEWS = {
   cpi: { get: r => r.cpi, fmt: fmtNum, band: r => cpiBand(r.cpi), avgband: cpiBand, avgfmt: v => v.toFixed(1) },
-  ace: { get: r => r.aceRate, fmt: fmtPct,
+  ace: { get: r => r.aceRate, fmt: v => fmtPct(v) + '%',
     band: r => r.aceRate != null ? aceBand(r.aceRate) : null,
-    avgband: aceBand, avgfmt: fmtPct },
+    avgband: aceBand, avgfmt: v => fmtPct(v) + '%' },
   rally: { get: r => r.rallyLength, fmt: fmtNum,
     band: r => r.rallyLength != null ? rallyBand(r.rallyLength) : null,
     avgband: rallyBand, avgfmt: v => v.toFixed(2) },
@@ -139,10 +139,14 @@ export function sidebar(nowY = 2026, nowM = 6) {
 
   // hard-court trend: last 4 complete seasons
   const trendYears = ['2022', '2023', '2024', '2025'];
-  const seasonAvg = (y, key) => {
-    const vals = [...R.entries()]
-      .filter(([k, r]) => k.endsWith(`|${y}`) && r[key] != null && (r.surface || '').startsWith('Hard'))
-      .map(([, r]) => r[key]);
+  /* balanced panel: only hard-court tournaments with data in ALL trend seasons,
+     so composition changes (new events, COVID gaps, dropped readings) can't fake a trend */
+  const panelFor = key => ORDER.filter(t => trendYears.every(y => {
+    const r = R.get(`${t}|${y}`);
+    return r && r[key] != null && (r.surface || '').startsWith('Hard');
+  }));
+  const seasonAvg = (y, key, panel) => {
+    const vals = panel.map(t => R.get(`${t}|${y}`)[key]);
     return vals.length ? vals.reduce((a, b) => a + b) / vals.length : null;
   };
   const spark = vals => {
@@ -160,7 +164,8 @@ export function sidebar(nowY = 2026, nowM = 6) {
     ['aceRate', 'Avg ace rate', v => (v * 100).toFixed(1) + '%', true],
     ['rallyLength', 'Avg rally', v => v.toFixed(2), false],
   ].map(([key, label, fmt, upIsFast]) => {
-    const vals = trendYears.map(y => seasonAvg(y, key));
+    const panel = panelFor(key);
+    const vals = trendYears.map(y => seasonAvg(y, key, panel));
     const first = vals.find(v => v != null), last = [...vals].reverse().find(v => v != null);
     const d = last - first;
     /* arrows only earn a colour when the move is >2% over the window */
