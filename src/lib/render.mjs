@@ -135,10 +135,12 @@ export function sidebar(nowY = 2026, nowM = 6) {
   const fast = last12.slice(0, 3).map(li).join('');
   const slow = [...last12].sort((a, b) => a[2] - b[2]).slice(0, 3).map(li).join('');
 
-  // tour trend: last 5 complete seasons
+  // hard-court trend: last 5 complete seasons
   const trendYears = ['2021', '2022', '2023', '2024', '2025'];
   const seasonAvg = (y, key) => {
-    const vals = [...R.entries()].filter(([k, r]) => k.endsWith(`|${y}`) && r[key] != null).map(([, r]) => r[key]);
+    const vals = [...R.entries()]
+      .filter(([k, r]) => k.endsWith(`|${y}`) && r[key] != null && (r.surface || '').startsWith('Hard'))
+      .map(([, r]) => r[key]);
     return vals.length ? vals.reduce((a, b) => a + b) / vals.length : null;
   };
   const spark = vals => {
