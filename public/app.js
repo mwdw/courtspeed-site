@@ -11,7 +11,7 @@ const sBand = s => s < 30 ? 0 : s < 45 ? 1 : s < 55 ? 2 : s < 70 ? 3 : 4;
 /* theme */
 const root = document.documentElement, tbtn = document.getElementById('theme');
 let theme = localStorage.getItem('cs-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-function setTheme(t) { theme = t; root.dataset.theme = t; if (tbtn) tbtn.textContent = t === 'dark' ? '☀' : '☾'; localStorage.setItem('cs-theme', t); }
+function setTheme(t) { theme = t; root.dataset.theme = t; localStorage.setItem('cs-theme', t); }
 setTheme(theme);
 if (tbtn) tbtn.onclick = () => setTheme(theme === 'dark' ? 'light' : 'dark');
 
@@ -42,6 +42,7 @@ function apply() {
 }
 btns.forEach(b => b.onclick = () => { btns.forEach(x => x.classList.remove('on')); b.classList.add('on'); surf = b.dataset.s; apply(); });
 if (q) q.oninput = apply;
+if (q && matchMedia('(max-width:640px)').matches) q.placeholder = 'Search\u2026';
 
 /* summary content */
 function kv(lab, val, band) {
