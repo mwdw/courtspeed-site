@@ -17,9 +17,7 @@
   --backdrop:#0f0e0c;
 }
 * { box-sizing:border-box; margin:0; }
-/* the page is a sheet: paper ends at the footer, the darker backdrop owns whatever
-   viewport is left below — no stray paper-coloured voids at any window height */
-html { background:var(--backdrop); }
+html { background:var(--paper); }
 body { background:var(--paper); color:var(--ink); font:15px/1.55 Inter,system-ui,sans-serif;
   transition:background .25s,color .25s; }
 .wrap { max-width:1280px; margin:0 auto; padding:0 28px; width:100%; }
@@ -78,6 +76,7 @@ tbody th.t { position:sticky; left:0; background:var(--card); z-index:1; text-al
 .surf i { display:inline-block; width:7px; height:7px; border-radius:99px; margin-right:5px; }
 td { border-bottom:1px solid var(--rule); text-align:center; height:46px; min-width:54px; padding:0 4px; }
 td.v { font:500 13px "JetBrains Mono",monospace; cursor:pointer; }
+.acewrap td.v { font-size:12px; }
 td.b0 { background:var(--b0bg); color:var(--b0fg); } td.b1 { background:var(--b1bg); color:var(--b1fg); }
 td.b2 { background:var(--b2bg); color:var(--b2fg); } td.b3 { background:var(--b3bg); color:var(--b3fg); }
 td.b4 { background:var(--b4bg); color:var(--b4fg); }
