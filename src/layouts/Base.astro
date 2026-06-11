@@ -27,6 +27,7 @@ const NAV = [
   ['/trends', 'Trends', 'Trends'],
   ['/method-notes', 'Method & notes', 'Notes'],
 ];
+const canonical = `https://courtspeed.com${path}${path === '/' ? '' : '/'}`;
 const side = sidebar();
 const payload = JSON.stringify(clientPayload());
 const updated = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
@@ -38,6 +39,16 @@ const updated = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{title}</title>
 <meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Court Speed" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content="https://courtspeed.com/og.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@mattracquet" />
+<meta name="twitter:image" content="https://courtspeed.com/og.png" />
 <link rel="icon" type="image/svg+xml" href="/courtspeed-logo.svg" />
 <link rel="apple-touch-icon" href="/courtspeed-favicon-512.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
