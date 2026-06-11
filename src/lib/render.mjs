@@ -137,17 +137,18 @@ export function sidebar(nowY = 2026, nowM = 6) {
   const fast = last12.slice(0, 3).map(li).join('');
   const slow = [...last12].sort((a, b) => a[2] - b[2]).slice(0, 3).map(li).join('');
 
-  // hard-court trend: last 4 complete seasons
-  const trendYears = ['2022', '2023', '2024', '2025'];
-  /* balanced panel: only hard-court tournaments with data in ALL trend seasons,
-     so composition changes (new events, COVID gaps, dropped readings) can't fake a trend */
-  const panelFor = key => ORDER.filter(t => trendYears.every(y => {
-    const r = R.get(`${t}|${y}`);
-    return r && r[key] != null && (r.surface || '').startsWith('Hard');
-  }));
-  const seasonAvg = (y, key, panel) => {
-    const vals = panel.map(t => R.get(`${t}|${y}`)[key]);
-    return vals.length ? vals.reduce((a, b) => a + b) / vals.length : null;
+  /* hard-court trend: each tournament's own LAST FOUR seasons with data —
+     events already played this year contribute '23→'26, the rest '22→'25.
+     Windows are aligned by relative season (t-3 … t) and averaged across the
+     panel, so the composition is identical at every point and can't fake a trend.
+     A window only qualifies if it's 4 seasons deep and starts in 2022 or later. */
+  const windowFor = (t, key) => {
+    const yrs = YEARS.filter(y => {
+      const r = R.get(`${t}|${y}`);
+      return r && r[key] != null && (r.surface || '').startsWith('Hard');
+    });
+    const w = yrs.slice(-4);
+    return (w.length === 4 && +w[0] >= 2022) ? w : null;
   };
   const spark = vals => {
     const pts = vals.map((v, i) => [i, v]).filter(p => p[1] != null);
@@ -164,15 +165,19 @@ export function sidebar(nowY = 2026, nowM = 6) {
     ['aceRate', 'Avg ace rate', v => (v * 100).toFixed(1) + '%', true],
     ['rallyLength', 'Avg rally', v => v.toFixed(2), false],
   ].map(([key, label, fmt, upIsFast]) => {
-    const panel = panelFor(key);
-    const vals = trendYears.map(y => seasonAvg(y, key, panel));
-    const first = vals.find(v => v != null), last = [...vals].reverse().find(v => v != null);
+    const wins = ORDER.map(t => [t, windowFor(t, key)]).filter(([, w]) => w);
+    const vals = [0, 1, 2, 3].map(i => {
+      const vs = wins.map(([t, w]) => R.get(`${t}|${w[i]}`)[key]);
+      return vs.length ? vs.reduce((a, b) => a + b) / vs.length : null;
+    });
+    const maxEnd = String(Math.max(...wins.map(([, w]) => +w[3]))).slice(2);
+    const first = vals[0], last = vals[3];
     const d = last - first;
     /* arrows only earn a colour when the move is >2% over the window */
     const flat = Math.abs(d) / Math.abs(first) < 0.02;
     const cls = flat ? '' : ((d > 0) === upIsFast ? 'pos' : 'neg');
     const arrow = flat ? '→' : (d > 0 ? '▲' : '▼');
-    return `<li><span>${label}<small style="display:block;color:var(--ink3);font-size:11px">’22 → ’25</small></span>${spark(vals)}<b class="${cls}" style="background:none;padding:0${flat ? ';color:var(--ink2)' : ''}">${fmt(last)} ${arrow}</b></li>`;
+    return `<li><span>${label}<small style="display:block;color:var(--ink3);font-size:11px">to ’${maxEnd}</small></span>${spark(vals)}<b class="${cls}" style="background:none;padding:0${flat ? ';color:var(--ink2)' : ''}">${fmt(last)} ${arrow}</b></li>`;
   }).join('');
 
   return { fast, slow, trend };
