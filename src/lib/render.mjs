@@ -1,7 +1,7 @@
 /** Server-side HTML builders — matrix tables, legends, sidebar. */
 import {
   R, YEARS, ORDER, SLAMS, COVID, VENUE, MONTH, BALLCHANGE,
-  surfaceOf, cpiBand, radBand, bandFromScore, sAce, sRally, BAND_LABEL,
+  surfaceOf, cpiBand, radBand, bandFromScore, aceBand, rallyBand, BAND_LABEL,
 } from './data.mjs';
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
@@ -12,11 +12,11 @@ const fmtRad = v => v.toFixed(3);
 export const VIEWS = {
   cpi: { get: r => r.cpi, fmt: fmtNum, band: r => cpiBand(r.cpi), avgband: cpiBand, avgfmt: v => v.toFixed(1) },
   ace: { get: r => r.aceRate, fmt: fmtPct,
-    band: r => r.aceRate != null ? bandFromScore(sAce(r.aceRate)) : null,
-    avgband: v => bandFromScore(sAce(v)), avgfmt: fmtPct },
+    band: r => r.aceRate != null ? aceBand(r.aceRate) : null,
+    avgband: aceBand, avgfmt: fmtPct },
   rally: { get: r => r.rallyLength, fmt: fmtNum,
-    band: r => r.rallyLength != null ? bandFromScore(sRally(r.rallyLength)) : null,
-    avgband: v => bandFromScore(sRally(v)), avgfmt: v => v.toFixed(2) },
+    band: r => r.rallyLength != null ? rallyBand(r.rallyLength) : null,
+    avgband: rallyBand, avgfmt: v => v.toFixed(2) },
   conditions: { get: r => r.rad, fmt: fmtRad, band: r => radBand(r.rad), avgband: radBand, avgfmt: fmtRad },
   osr: { get: r => r.osr, fmt: null, band: r => bandFromScore(r.osr) },
   champions: { get: r => r.winner, fmt: null, band: () => null },
@@ -37,7 +37,9 @@ function tournamentTh(t) {
   const slam = SLAMS.has(t) ? '<span class="slam" title="Grand Slam">◆</span>' : '';
   const nice = s.replace(' (Indoor)', ' · indoor');
   const note = t === 'Canadian Open' ? ' title="Alternates Toronto / Montreal every other year"' : '';
-  return `<th class="t" scope="row"${note}>${slam}${t}<span class="surf"><i style="background:${dot}"></i>${nice}</span></th>`;
+  const SHORT = { 'Australian Open': 'Aus Open', 'Canadian Open': 'Canada' };
+  const nm = SHORT[t] ? `<span class="tn-f">${t}</span><span class="tn-s">${SHORT[t]}</span>` : t;
+  return `<th class="t" scope="row"${note}>${slam}${nm}<span class="surf"><i style="background:${dot}"></i>${nice}</span></th>`;
 }
 
 export function matrix(viewKey, { avg = false, ballmarks = false, novc = false } = {}) {
@@ -135,8 +137,8 @@ export function sidebar(nowY = 2026, nowM = 6) {
   const fast = last12.slice(0, 3).map(li).join('');
   const slow = [...last12].sort((a, b) => a[2] - b[2]).slice(0, 3).map(li).join('');
 
-  // hard-court trend: last 5 complete seasons
-  const trendYears = ['2021', '2022', '2023', '2024', '2025'];
+  // hard-court trend: last 4 complete seasons
+  const trendYears = ['2022', '2023', '2024', '2025'];
   const seasonAvg = (y, key) => {
     const vals = [...R.entries()]
       .filter(([k, r]) => k.endsWith(`|${y}`) && r[key] != null && (r.surface || '').startsWith('Hard'))
@@ -161,8 +163,11 @@ export function sidebar(nowY = 2026, nowM = 6) {
     const vals = trendYears.map(y => seasonAvg(y, key));
     const first = vals.find(v => v != null), last = [...vals].reverse().find(v => v != null);
     const d = last - first;
-    const cls = (d > 0) === upIsFast ? 'pos' : 'neg';
-    return `<li><span>${label}<small style="display:block;color:var(--ink3);font-size:11px">’21 → ’25</small></span>${spark(vals)}<b class="${cls}" style="background:none;padding:0">${fmt(last)} ${d > 0 ? '▲' : '▼'}</b></li>`;
+    /* arrows only earn a colour when the move is >2% over the window */
+    const flat = Math.abs(d) / Math.abs(first) < 0.02;
+    const cls = flat ? '' : ((d > 0) === upIsFast ? 'pos' : 'neg');
+    const arrow = flat ? '→' : (d > 0 ? '▲' : '▼');
+    return `<li><span>${label}<small style="display:block;color:var(--ink3);font-size:11px">’22 → ’25</small></span>${spark(vals)}<b class="${cls}" style="background:none;padding:0${flat ? ';color:var(--ink2)' : ''}">${fmt(last)} ${arrow}</b></li>`;
   }).join('');
 
   return { fast, slow, trend };
