@@ -2817,7 +2817,8 @@
    "ball": "Dunlop",
    "holdPct": 0.831,
    "rallyLength": 3.84,
-   "rad": 0.905
+   "rad": 0.905,
+   "cpiSource": "https://i.postimg.cc/fy6fjKDF/Madrid-2026-Day-6-CPI.jpg"
   },
   {
    "tournament": "Rome",
@@ -2830,7 +2831,8 @@
    "ball": "Dunlop",
    "holdPct": 0.772,
    "rallyLength": null,
-   "rad": 0.977
+   "rad": 0.977,
+   "cpiSource": "https://i.postimg.cc/j5n9bx6v/Day-4-CPI-Rome-2026-copy.png"
   },
   {
    "tournament": "Roland Garros",
