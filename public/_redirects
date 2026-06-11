@@ -1,0 +1,12 @@
+# legacy routes from the old Replit site (indexed by Google) -> new equivalents
+/hard / 301
+/clay / 301
+/grass / 301
+/indoor / 301
+/court-speed-rating /overall-speed-rating/ 301
+/speed-rating /overall-speed-rating/ 301
+/conditions /weather-altitude/ 301
+/ace /ace-rate/ 301
+/rally /rally-length/ 301
+/year/* / 301
+/cpi/* / 301
