@@ -17,7 +17,10 @@
 * { box-sizing:border-box; margin:0; }
 html { background:var(--paper); }
 body { background:var(--paper); color:var(--ink); font:15px/1.55 Inter,system-ui,sans-serif;
-  transition:background .25s,color .25s; }
+  transition:background .25s,color .25s; min-height:100vh; display:flex; flex-direction:column; }
+/* pin the footer to the viewport bottom on pages shorter than the window */
+.wrap { display:flex; flex-direction:column; flex:1; }
+.wrap footer { margin-top:auto; }
 .wrap { max-width:1280px; margin:0 auto; padding:0 28px; width:100%; }
 a { color:var(--accent); }
 
@@ -31,6 +34,7 @@ header { padding:34px 0 0; }
 [data-theme="light"] #theme .i-sun { display:none; }
 [data-theme="dark"] #theme .i-moon { display:none; }
 nav a .short { display:none; }
+.tn-s { display:none; }
 .brand { display:flex; align-items:center; gap:14px; margin:16px 0 8px; }
 .brand .mark { width:42px; height:42px; flex:none; }
 .spark { width:84px; height:22px; flex:none; }
@@ -190,4 +194,12 @@ footer a { color:inherit; }
   nav a .full { display:none; }
   nav a .short { display:inline; }
   nav a { padding:8px 10px 10px; font-size:13px; }
+  /* reorder so the two rows pack evenly: Balls joins row 1 */
+  nav a:nth-child(1) { order:1; } nav a:nth-child(2) { order:2; }
+  nav a:nth-child(3) { order:3; } nav a:nth-child(4) { order:4; }
+  nav a:nth-child(7) { order:5; } nav a:nth-child(5) { order:6; }
+  nav a:nth-child(6) { order:7; } nav a:nth-child(8) { order:8; }
+  nav a:nth-child(9) { order:9; }
+  .tn-f { display:none; }
+  .tn-s { display:inline; }
 }
