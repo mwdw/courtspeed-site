@@ -6,6 +6,7 @@
   --b0bg:#f6c5be; --b0fg:#8a2c21; --b1bg:#f9d49b; --b1fg:#7d520e;
   --b2bg:#f4e283; --b2fg:#6c590a; --b3bg:#b5d2f4; --b3fg:#1c4e8c;
   --b4bg:#aee2bb; --b4fg:#1d6331; --shadow:0 10px 40px rgba(40,35,25,.18);
+  --backdrop:#efeae1;
 }
 [data-theme="dark"] {
   --paper:#191714; --ink:#ece8e1; --ink2:#a59e92; --ink3:#6e685e;
@@ -13,14 +14,14 @@
   --b0bg:#612e26; --b0fg:#f8b5a9; --b1bg:#5e4716; --b1fg:#f2ca85;
   --b2bg:#574e16; --b2fg:#ecdc78; --b3bg:#27436b; --b3fg:#a9cdf6;
   --b4bg:#27503a; --b4fg:#a0e0b2; --shadow:0 10px 40px rgba(0,0,0,.5);
+  --backdrop:#0f0e0c;
 }
 * { box-sizing:border-box; margin:0; }
-html { background:var(--paper); }
+/* the page is a sheet: paper ends at the footer, the darker backdrop owns whatever
+   viewport is left below — no stray paper-coloured voids at any window height */
+html { background:var(--backdrop); }
 body { background:var(--paper); color:var(--ink); font:15px/1.55 Inter,system-ui,sans-serif;
-  transition:background .25s,color .25s; min-height:100vh; display:flex; flex-direction:column; }
-/* pin the footer to the viewport bottom on pages shorter than the window */
-.wrap { display:flex; flex-direction:column; flex:1; }
-.wrap footer { margin-top:auto; }
+  transition:background .25s,color .25s; }
 .wrap { max-width:1280px; margin:0 auto; padding:0 28px; width:100%; }
 a { color:var(--accent); }
 
