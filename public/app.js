@@ -7,6 +7,8 @@ const cpiBand = v => v < 30 ? 0 : v < 35 ? 1 : v < 40 ? 2 : v <= 44 ? 3 : 4;
 const radBand = v => v > 1.0 ? 0 : v > 0.975 ? 1 : v > 0.96 ? 2 : v > 0.94 ? 3 : 4;
 const score = (v, a, b) => Math.max(0, Math.min(100, (v - a) / (b - a) * 100));
 const sBand = s => s < 30 ? 0 : s < 45 ? 1 : s < 55 ? 2 : s < 70 ? 3 : 4;
+const aceBand = v => v < 0.07 ? 0 : v <= 0.085 ? 1 : v <= 0.095 ? 2 : v <= 0.11 ? 3 : 4;
+const rallyBand = v => v > 4.7 ? 0 : v >= 4.4 ? 1 : v >= 4.2 ? 2 : v >= 3.9 ? 3 : 4;
 
 /* theme */
 const root = document.documentElement, tbtn = document.getElementById('theme');
@@ -54,8 +56,8 @@ function summary(t, y, r, big) {
   let h = `<div class="tip-h">${t} ${y}</div><div class="tip-sub">${r.surface || ''}${r.elevation != null ? ' · ' + r.elevation + 'm elevation' : ''}</div>`;
   h += kv('CPI', r.cpi != null ? `${r.cpi} — ${BANDS[cpiBand(r.cpi)]}` : null, r.cpi != null ? cpiBand(r.cpi) : null);
   h += kv('Overall speed rating', r.osrLabel, r.osr != null ? sBand(r.osr) : null);
-  h += kv('Ace rate', r.aceRate != null ? (r.aceRate * 100).toFixed(1) + '%' : null, r.aceRate != null ? sBand(score(r.aceRate, 0.04, 0.14)) : null);
-  h += kv('Rally length', r.rallyLength != null ? r.rallyLength + ' shots' : null, r.rallyLength != null ? sBand(score(5.2 - r.rallyLength, 0, 1.8)) : null);
+  h += kv('Ace rate', r.aceRate != null ? (r.aceRate * 100).toFixed(1) + '%' : null, r.aceRate != null ? aceBand(r.aceRate) : null);
+  h += kv('Rally length', r.rallyLength != null ? r.rallyLength + ' shots' : null, r.rallyLength != null ? rallyBand(r.rallyLength) : null);
   h += kv('Air density (RAD)', r.rad != null ? r.rad.toFixed(3) : null, r.rad != null ? radBand(r.rad) : null);
   h += kv('Hold %', r.holdPct != null ? (r.holdPct * 100).toFixed(1) + '%' : null);
   h += kv('Ball', r.ball); h += kv('Champion', r.winner);
@@ -121,8 +123,8 @@ document.addEventListener('click', e => {
       if (!r) { h += `<tr><td>${nm}</td><td colspan="7" class="dim">–</td></tr>`; return; }
       h += `<tr><td>${nm}</td>` +
         `<td>${chip(r.cpi, r.cpi != null ? cpiBand(r.cpi) : null)}</td>` +
-        `<td>${chip(r.aceRate != null ? (r.aceRate * 100).toFixed(1) + '%' : null, r.aceRate != null ? sBand(score(r.aceRate, 0.04, 0.14)) : null)}</td>` +
-        `<td>${chip(r.rallyLength, r.rallyLength != null ? sBand(score(5.2 - r.rallyLength, 0, 1.8)) : null)}</td>` +
+        `<td>${chip(r.aceRate != null ? (r.aceRate * 100).toFixed(1) + '%' : null, r.aceRate != null ? aceBand(r.aceRate) : null)}</td>` +
+        `<td>${chip(r.rallyLength, r.rallyLength != null ? rallyBand(r.rallyLength) : null)}</td>` +
         `<td>${chip(r.rad != null ? r.rad.toFixed(3) : null, r.rad != null ? radBand(r.rad) : null)}</td>` +
         `<td>${r.ball || '<span class="dim">–</span>'}</td>` +
         `<td>${r.osrLabel ? `<span class="chip b${sBand(r.osr)}">${r.osrLabel.replace('Medium', 'Med').replace('-', ' ')}</span>` : '<span class="dim">–</span>'}</td>` +
