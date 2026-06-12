@@ -1,4 +1,5 @@
 # legacy routes from the old Replit site (indexed by Google) -> new equivalents
+/favicon.ico /courtspeed-favicon-64.png 301
 /hard / 301
 /clay / 301
 /grass / 301
