@@ -2630,7 +2630,7 @@
    "displayName": "Wimbledon",
    "cpi": null,
    "surface": "Grass",
-   "aceRate": 0.116,
+   "aceRate": 0.108,
    "winner": "Sinner",
    "elevation": 36,
    "ball": "Slazenger",
@@ -2834,13 +2834,13 @@
    "displayName": "Wimbledon",
    "cpi": null,
    "surface": "Grass",
-   "aceRate": null,
-   "winner": null,
+   "aceRate": 0.119,
+   "winner": "Sinner",
    "elevation": 36,
    "ball": "Slazenger",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": 0.9596
   },
   {
    "tournament": "Canadian Open",
