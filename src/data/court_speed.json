@@ -2270,7 +2270,7 @@
    "elevation": 2,
    "ball": "Wilson",
    "holdPct": null,
-   "rallyLength": null,
+   "rallyLength": 3.98,
    "rad": 0.9529
   },
   {
@@ -2474,7 +2474,7 @@
    "elevation": 2,
    "ball": "Wilson",
    "holdPct": null,
-   "rallyLength": 3.83,
+   "rallyLength": 3.8,
    "rad": 0.9684
   },
   {
@@ -2838,8 +2838,8 @@
    "winner": "Sinner",
    "elevation": 36,
    "ball": "Slazenger",
-   "holdPct": null,
-   "rallyLength": null,
+   "holdPct": 0.829,
+   "rallyLength": 3.53,
    "rad": 0.9596
   },
   {
