@@ -1252,7 +1252,7 @@
    "elevation": 40,
    "ball": "Babolat",
    "holdPct": null,
-   "rallyLength": 4.4,
+   "rallyLength": null,
    "rad": null
   },
   {
@@ -1444,7 +1444,7 @@
    "elevation": 40,
    "ball": "Babolat",
    "holdPct": null,
-   "rallyLength": 4.47,
+   "rallyLength": null,
    "rad": null
   },
   {
@@ -1630,7 +1630,7 @@
    "elevation": 40,
    "ball": "Wilson*",
    "holdPct": null,
-   "rallyLength": 4.95,
+   "rallyLength": null,
    "rad": null
   },
   {
@@ -2826,7 +2826,7 @@
    "elevation": 40,
    "ball": "Wilson",
    "holdPct": null,
-   "rallyLength": null,
+   "rallyLength": 4.7,
    "rad": 0.966
   },
   {
