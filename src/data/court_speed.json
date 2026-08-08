@@ -169,7 +169,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://pbs.twimg.com/media/Cwb_vynXUAAYMw1.jpg",
-   "cpiSourceLocal": "/sources/paris-2012.jpg"
+   "cpiSourceLocal": "/sources/paris-2012-beb30d2a.jpg"
   },
   {
    "tournament": "ATP Finals",
@@ -184,7 +184,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
-   "cpiSourceLocal": "/sources/atp-finals-2012.jpg"
+   "cpiSourceLocal": "/sources/atp-finals-2012-701f06de.jpg"
   }
  ],
  "2013": [
@@ -227,7 +227,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png",
-   "cpiSourceLocal": "/sources/miami-2013.png"
+   "cpiSourceLocal": "/sources/miami-2013-4e3ef6ef.png"
   },
   {
    "tournament": "Monte Carlo",
@@ -359,7 +359,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://pbs.twimg.com/media/Cwb_vynXUAAYMw1.jpg",
-   "cpiSourceLocal": "/sources/paris-2013.jpg"
+   "cpiSourceLocal": "/sources/paris-2013-beb30d2a.jpg"
   },
   {
    "tournament": "ATP Finals",
@@ -374,7 +374,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
-   "cpiSourceLocal": "/sources/atp-finals-2013.jpg"
+   "cpiSourceLocal": "/sources/atp-finals-2013-701f06de.jpg"
   }
  ],
  "2014": [
@@ -417,7 +417,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png",
-   "cpiSourceLocal": "/sources/miami-2014.png"
+   "cpiSourceLocal": "/sources/miami-2014-4e3ef6ef.png"
   },
   {
    "tournament": "Monte Carlo",
@@ -549,7 +549,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://pbs.twimg.com/media/Cwb_vynXUAAYMw1.jpg",
-   "cpiSourceLocal": "/sources/paris-2014.jpg"
+   "cpiSourceLocal": "/sources/paris-2014-beb30d2a.jpg"
   },
   {
    "tournament": "ATP Finals",
@@ -564,7 +564,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
-   "cpiSourceLocal": "/sources/atp-finals-2014.jpg"
+   "cpiSourceLocal": "/sources/atp-finals-2014-701f06de.jpg"
   }
  ],
  "2015": [
@@ -607,7 +607,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png",
-   "cpiSourceLocal": "/sources/miami-2015.png"
+   "cpiSourceLocal": "/sources/miami-2015-4e3ef6ef.png"
   },
   {
    "tournament": "Monte Carlo",
@@ -739,7 +739,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://pbs.twimg.com/media/Cwb_vynXUAAYMw1.jpg",
-   "cpiSourceLocal": "/sources/paris-2015.jpg"
+   "cpiSourceLocal": "/sources/paris-2015-beb30d2a.jpg"
   },
   {
    "tournament": "ATP Finals",
@@ -754,7 +754,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
-   "cpiSourceLocal": "/sources/atp-finals-2015.jpg"
+   "cpiSourceLocal": "/sources/atp-finals-2015-701f06de.jpg"
   }
  ],
  "2016": [
@@ -955,7 +955,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/23wkuqizk9i91.png",
-   "cpiSourceLocal": "/sources/australian-open-2017.png"
+   "cpiSourceLocal": "/sources/australian-open-2017-098bf97d.png"
   },
   {
    "tournament": "Indian Wells",
@@ -970,7 +970,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/juu06mab82i91.png",
-   "cpiSourceLocal": "/sources/indian-wells-2017.png"
+   "cpiSourceLocal": "/sources/indian-wells-2017-4a72f08e.png"
   },
   {
    "tournament": "Miami",
@@ -985,7 +985,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.snipboard.io/DOWfl7.jpg",
-   "cpiSourceLocal": "/sources/miami-2017.jpg"
+   "cpiSourceLocal": "/sources/miami-2017-b7cdd8ba.jpg"
   },
   {
    "tournament": "Monte Carlo",
@@ -1000,7 +1000,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/juu06mab82i91.png",
-   "cpiSourceLocal": "/sources/monte-carlo-2017.png"
+   "cpiSourceLocal": "/sources/monte-carlo-2017-4a72f08e.png"
   },
   {
    "tournament": "Madrid",
@@ -1015,7 +1015,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/juu06mab82i91.png",
-   "cpiSourceLocal": "/sources/madrid-2017.png"
+   "cpiSourceLocal": "/sources/madrid-2017-4a72f08e.png"
   },
   {
    "tournament": "Rome",
@@ -1030,7 +1030,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/juu06mab82i91.png",
-   "cpiSourceLocal": "/sources/rome-2017.png"
+   "cpiSourceLocal": "/sources/rome-2017-4a72f08e.png"
   },
   {
    "tournament": "Roland Garros",
@@ -1045,7 +1045,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/23wkuqizk9i91.png",
-   "cpiSourceLocal": "/sources/roland-garros-2017.png"
+   "cpiSourceLocal": "/sources/roland-garros-2017-098bf97d.png"
   },
   {
    "tournament": "Wimbledon",
@@ -1060,7 +1060,7 @@
    "rallyLength": 3.39,
    "rad": null,
    "cpiSource": "https://i.redd.it/23wkuqizk9i91.png",
-   "cpiSourceLocal": "/sources/wimbledon-2017.png"
+   "cpiSourceLocal": "/sources/wimbledon-2017-098bf97d.png"
   },
   {
    "tournament": "Canadian Open",
@@ -1075,7 +1075,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/juu06mab82i91.png",
-   "cpiSourceLocal": "/sources/canadian-open-2017.png"
+   "cpiSourceLocal": "/sources/canadian-open-2017-4a72f08e.png"
   },
   {
    "tournament": "Cincinnati",
@@ -1090,7 +1090,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/juu06mab82i91.png",
-   "cpiSourceLocal": "/sources/cincinnati-2017.png"
+   "cpiSourceLocal": "/sources/cincinnati-2017-4a72f08e.png"
   },
   {
    "tournament": "US Open",
@@ -1105,7 +1105,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://preview.redd.it/fcxfpqizk9i91.png?width=640&crop=smart&auto=webp&s=867510da064b75050c0255fb7e8dabd5dd4d9899",
-   "cpiSourceLocal": "/sources/us-open-2017.png"
+   "cpiSourceLocal": "/sources/us-open-2017-741734b8.png"
   },
   {
    "tournament": "Shanghai",
@@ -1120,7 +1120,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/juu06mab82i91.png",
-   "cpiSourceLocal": "/sources/shanghai-2017.png"
+   "cpiSourceLocal": "/sources/shanghai-2017-4a72f08e.png"
   },
   {
    "tournament": "Paris",
@@ -1135,7 +1135,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/juu06mab82i91.png",
-   "cpiSourceLocal": "/sources/paris-2017.png"
+   "cpiSourceLocal": "/sources/paris-2017-4a72f08e.png"
   },
   {
    "tournament": "ATP Finals",
@@ -1150,7 +1150,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
-   "cpiSourceLocal": "/sources/atp-finals-2017.jpg"
+   "cpiSourceLocal": "/sources/atp-finals-2017-701f06de.jpg"
   }
  ],
  "2018": [
@@ -1180,7 +1180,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg",
-   "cpiSourceLocal": "/sources/indian-wells-2018.jpg"
+   "cpiSourceLocal": "/sources/indian-wells-2018-b13faa2f.jpg"
   },
   {
    "tournament": "Miami",
@@ -1195,7 +1195,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg",
-   "cpiSourceLocal": "/sources/miami-2018.jpg"
+   "cpiSourceLocal": "/sources/miami-2018-b13faa2f.jpg"
   },
   {
    "tournament": "Monte Carlo",
@@ -1210,7 +1210,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg",
-   "cpiSourceLocal": "/sources/monte-carlo-2018.jpg"
+   "cpiSourceLocal": "/sources/monte-carlo-2018-b13faa2f.jpg"
   },
   {
    "tournament": "Madrid",
@@ -1225,7 +1225,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg",
-   "cpiSourceLocal": "/sources/madrid-2018.jpg"
+   "cpiSourceLocal": "/sources/madrid-2018-b13faa2f.jpg"
   },
   {
    "tournament": "Rome",
@@ -1240,7 +1240,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg",
-   "cpiSourceLocal": "/sources/rome-2018.jpg"
+   "cpiSourceLocal": "/sources/rome-2018-b13faa2f.jpg"
   },
   {
    "tournament": "Roland Garros",
@@ -1281,7 +1281,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg",
-   "cpiSourceLocal": "/sources/canadian-open-2018.jpg"
+   "cpiSourceLocal": "/sources/canadian-open-2018-b13faa2f.jpg"
   },
   {
    "tournament": "Cincinnati",
@@ -1296,7 +1296,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.redd.it/1whx98a9vzr11.jpg",
-   "cpiSourceLocal": "/sources/cincinnati-2018.jpg"
+   "cpiSourceLocal": "/sources/cincinnati-2018-b13faa2f.jpg"
   },
   {
    "tournament": "US Open",
@@ -1350,7 +1350,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
-   "cpiSourceLocal": "/sources/atp-finals-2018.jpg"
+   "cpiSourceLocal": "/sources/atp-finals-2018-701f06de.jpg"
   }
  ],
  "2019": [
@@ -1419,7 +1419,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.postimg.cc/YSpy1tyf/IMG-0536.jpg",
-   "cpiSourceLocal": "/sources/madrid-2019.jpg"
+   "cpiSourceLocal": "/sources/madrid-2019-82bf13bb.jpg"
   },
   {
    "tournament": "Rome",
@@ -1553,7 +1553,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://preview.redd.it/fcxfpqizk9i91.png?width=640&crop=smart&auto=webp&s=867510da064b75050c0255fb7e8dabd5dd4d9899",
-   "cpiSourceLocal": "/sources/australian-open-2020.png"
+   "cpiSourceLocal": "/sources/australian-open-2020-741734b8.png"
   },
   {
    "tournament": "Indian Wells",
@@ -1685,7 +1685,7 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://preview.redd.it/fcxfpqizk9i91.png?width=640&crop=smart&auto=webp&s=867510da064b75050c0255fb7e8dabd5dd4d9899",
-   "cpiSourceLocal": "/sources/us-open-2020.png"
+   "cpiSourceLocal": "/sources/us-open-2020-741734b8.png"
   },
   {
    "tournament": "Shanghai",
@@ -1741,7 +1741,7 @@
    "rallyLength": null,
    "rad": 0.9662,
    "cpiSource": "https://preview.redd.it/fcxfpqizk9i91.png?width=640&crop=smart&auto=webp&s=867510da064b75050c0255fb7e8dabd5dd4d9899",
-   "cpiSourceLocal": "/sources/australian-open-2021.png"
+   "cpiSourceLocal": "/sources/australian-open-2021-741734b8.png"
   },
   {
    "tournament": "Indian Wells",
@@ -1756,7 +1756,7 @@
    "rallyLength": 4.56,
    "rad": 0.9598,
    "cpiSource": "https://pbs.twimg.com/media/FBhErY7XIA0sj_o?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/indian-wells-2021.jpg"
+   "cpiSourceLocal": "/sources/indian-wells-2021-2ec336e3.jpg"
   },
   {
    "tournament": "Miami",
@@ -1849,7 +1849,7 @@
    "rallyLength": 3.69,
    "rad": 0.9501,
    "cpiSource": "https://pbs.twimg.com/media/E8rqcKOX0AE4Yk3?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/canadian-open-2021.jpg"
+   "cpiSourceLocal": "/sources/canadian-open-2021-08abea42.jpg"
   },
   {
    "tournament": "Cincinnati",
@@ -1864,7 +1864,7 @@
    "rallyLength": 3.92,
    "rad": 0.9301,
    "cpiSource": "https://pbs.twimg.com/media/E9AC5iZXoAIiYEV?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/cincinnati-2021.jpg"
+   "cpiSourceLocal": "/sources/cincinnati-2021-f6b16a0b.jpg"
   },
   {
    "tournament": "US Open",
@@ -1905,7 +1905,7 @@
    "rallyLength": 4.46,
    "rad": null,
    "cpiSource": "https://i.ibb.co/HTtgtNGV/the-process-of-speeding-up-the-courts-in-recent-years-v0-vsmwm7hp4pxd1.jpg",
-   "cpiSourceLocal": "/sources/paris-2021.jpg"
+   "cpiSourceLocal": "/sources/paris-2021-dad80962.jpg"
   },
   {
    "tournament": "ATP Finals",
@@ -1920,7 +1920,7 @@
    "rallyLength": 4.3,
    "rad": null,
    "cpiSource": "https://i.ibb.co/mVXz87dy/Untitled-2.jpg",
-   "cpiSourceLocal": "/sources/atp-finals-2021.jpg"
+   "cpiSourceLocal": "/sources/atp-finals-2021-7589ec60.jpg"
   }
  ],
  "2022": [
@@ -2041,7 +2041,7 @@
    "rallyLength": 4.5,
    "rad": 0.9675,
    "cpiSource": "https://pbs.twimg.com/media/FaJZyB-WQAAAm0v?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/canadian-open-2022.jpg"
+   "cpiSourceLocal": "/sources/canadian-open-2022-eacebba4.jpg"
   },
   {
    "tournament": "Cincinnati",
@@ -2056,7 +2056,7 @@
    "rallyLength": 4,
    "rad": 0.9378,
    "cpiSource": "https://pbs.twimg.com/media/FatjyGTX0AM5qSG?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/cincinnati-2022.jpg"
+   "cpiSourceLocal": "/sources/cincinnati-2022-11d962a5.jpg"
   },
   {
    "tournament": "US Open",
@@ -2097,7 +2097,7 @@
    "rallyLength": 4.2,
    "rad": null,
    "cpiSource": "https://i.ibb.co/HTtgtNGV/the-process-of-speeding-up-the-courts-in-recent-years-v0-vsmwm7hp4pxd1.jpg",
-   "cpiSourceLocal": "/sources/paris-2022.jpg"
+   "cpiSourceLocal": "/sources/paris-2022-dad80962.jpg"
   },
   {
    "tournament": "ATP Finals",
@@ -2112,7 +2112,7 @@
    "rallyLength": 4.08,
    "rad": null,
    "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png",
-   "cpiSourceLocal": "/sources/atp-finals-2022.png"
+   "cpiSourceLocal": "/sources/atp-finals-2022-5cb56644.png"
   }
  ],
  "2023": [
@@ -2142,7 +2142,7 @@
    "rallyLength": 4.66,
    "rad": 0.9749,
    "cpiSource": "https://pbs.twimg.com/media/Fq9hR1fXgAQ679l?format=jpg&name=large",
-   "cpiSourceLocal": "/sources/indian-wells-2023.jpg"
+   "cpiSourceLocal": "/sources/indian-wells-2023-fb09a870.jpg"
   },
   {
    "tournament": "Miami",
@@ -2157,7 +2157,7 @@
    "rallyLength": 3.91,
    "rad": 0.9614,
    "cpiSource": "https://pbs.twimg.com/media/FsuaOFMX0AAGgfD?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/miami-2023.jpg"
+   "cpiSourceLocal": "/sources/miami-2023-ee4086a5.jpg"
   },
   {
    "tournament": "Monte Carlo",
@@ -2172,7 +2172,7 @@
    "rallyLength": 4.55,
    "rad": 0.9856,
    "cpiSource": "https://pbs.twimg.com/media/FtdGSK-X0CMYpuU?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/monte-carlo-2023.jpg"
+   "cpiSourceLocal": "/sources/monte-carlo-2023-4a9f9d89.jpg"
   },
   {
    "tournament": "Madrid",
@@ -2187,7 +2187,7 @@
    "rallyLength": 3.74,
    "rad": 0.8944,
    "cpiSource": "https://pbs.twimg.com/media/FvXrnmJXwAAtMqs?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/madrid-2023.jpg"
+   "cpiSourceLocal": "/sources/madrid-2023-27f4544c.jpg"
   },
   {
    "tournament": "Rome",
@@ -2202,7 +2202,7 @@
    "rallyLength": 4.37,
    "rad": 0.9759,
    "cpiSource": "https://pbs.twimg.com/media/FwqaEaCX0AEQVzU?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/rome-2023.jpg"
+   "cpiSourceLocal": "/sources/rome-2023-5fd859d5.jpg"
   },
   {
    "tournament": "Roland Garros",
@@ -2243,7 +2243,7 @@
    "rallyLength": 4.16,
    "rad": 0.9499,
    "cpiSource": "https://pbs.twimg.com/media/F3cAvIRWwAAeStH?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/canadian-open-2023.jpg"
+   "cpiSourceLocal": "/sources/canadian-open-2023-0b418ac5.jpg"
   },
   {
    "tournament": "Cincinnati",
@@ -2258,7 +2258,7 @@
    "rallyLength": 3.96,
    "rad": 0.9354,
    "cpiSource": "https://pbs.twimg.com/media/F4BdhctXsAAFK3S?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/cincinnati-2023.jpg"
+   "cpiSourceLocal": "/sources/cincinnati-2023-9663a7d1.jpg"
   },
   {
    "tournament": "US Open",
@@ -2286,7 +2286,7 @@
    "rallyLength": 4.38,
    "rad": 0.9805,
    "cpiSource": "https://pbs.twimg.com/media/F8Ig2fiXMAAv2Ce?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/shanghai-2023.jpg"
+   "cpiSourceLocal": "/sources/shanghai-2023-55d3bf4f.jpg"
   },
   {
    "tournament": "Paris",
@@ -2301,7 +2301,7 @@
    "rallyLength": 4.08,
    "rad": null,
    "cpiSource": "https://i.ibb.co/HTtgtNGV/the-process-of-speeding-up-the-courts-in-recent-years-v0-vsmwm7hp4pxd1.jpg",
-   "cpiSourceLocal": "/sources/paris-2023.jpg"
+   "cpiSourceLocal": "/sources/paris-2023-dad80962.jpg"
   },
   {
    "tournament": "ATP Finals",
@@ -2316,7 +2316,7 @@
    "rallyLength": 4.1,
    "rad": null,
    "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png",
-   "cpiSourceLocal": "/sources/atp-finals-2023.png"
+   "cpiSourceLocal": "/sources/atp-finals-2023-5cb56644.png"
   }
  ],
  "2024": [
@@ -2346,7 +2346,7 @@
    "rallyLength": 4.4,
    "rad": 0.9773,
    "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4",
-   "cpiSourceLocal": "/sources/indian-wells-2024.jpeg"
+   "cpiSourceLocal": "/sources/indian-wells-2024-cc1a0aed.jpeg"
   },
   {
    "tournament": "Miami",
@@ -2361,7 +2361,7 @@
    "rallyLength": 4.12,
    "rad": 0.9678,
    "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4",
-   "cpiSourceLocal": "/sources/miami-2024.jpeg"
+   "cpiSourceLocal": "/sources/miami-2024-cc1a0aed.jpeg"
   },
   {
    "tournament": "Monte Carlo",
@@ -2376,7 +2376,7 @@
    "rallyLength": 4.66,
    "rad": 0.9856,
    "cpiSource": "https://pbs.twimg.com/media/GLDXU6SWoAEGQO4?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/monte-carlo-2024.jpg"
+   "cpiSourceLocal": "/sources/monte-carlo-2024-1087fe03.jpg"
   },
   {
    "tournament": "Madrid",
@@ -2391,7 +2391,7 @@
    "rallyLength": 4.32,
    "rad": 0.9205,
    "cpiSource": "https://pbs.twimg.com/media/GMAPztQWAAA-UZY?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/madrid-2024.jpg"
+   "cpiSourceLocal": "/sources/madrid-2024-6de75c56.jpg"
   },
   {
    "tournament": "Rome",
@@ -2406,7 +2406,7 @@
    "rallyLength": 4.55,
    "rad": 0.9669,
    "cpiSource": "https://pbs.twimg.com/media/GNh4MmTWoAAZf05?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/rome-2024.jpg"
+   "cpiSourceLocal": "/sources/rome-2024-71c90838.jpg"
   },
   {
    "tournament": "Roland Garros",
@@ -2447,7 +2447,7 @@
    "rallyLength": 4.11,
    "rad": 0.9624,
    "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4",
-   "cpiSourceLocal": "/sources/canadian-open-2024.jpeg"
+   "cpiSourceLocal": "/sources/canadian-open-2024-cc1a0aed.jpeg"
   },
   {
    "tournament": "Cincinnati",
@@ -2462,7 +2462,7 @@
    "rallyLength": 3.76,
    "rad": 0.9352,
    "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4",
-   "cpiSourceLocal": "/sources/cincinnati-2024.jpeg"
+   "cpiSourceLocal": "/sources/cincinnati-2024-cc1a0aed.jpeg"
   },
   {
    "tournament": "US Open",
@@ -2490,7 +2490,7 @@
    "rallyLength": 4.18,
    "rad": 0.9799,
    "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4",
-   "cpiSourceLocal": "/sources/shanghai-2024.jpeg"
+   "cpiSourceLocal": "/sources/shanghai-2024-cc1a0aed.jpeg"
   },
   {
    "tournament": "Paris",
@@ -2505,7 +2505,7 @@
    "rallyLength": 3.78,
    "rad": null,
    "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4",
-   "cpiSourceLocal": "/sources/paris-2024.jpeg"
+   "cpiSourceLocal": "/sources/paris-2024-cc1a0aed.jpeg"
   },
   {
    "tournament": "ATP Finals",
@@ -2520,7 +2520,7 @@
    "rallyLength": 4.39,
    "rad": null,
    "cpiSource": "https://i.ibb.co/mVXz87dy/Untitled-2.jpg",
-   "cpiSourceLocal": "/sources/atp-finals-2024.jpg"
+   "cpiSourceLocal": "/sources/atp-finals-2024-7589ec60.jpg"
   }
  ],
  "2025": [
@@ -2550,7 +2550,7 @@
    "rallyLength": 4.53,
    "rad": 0.9841,
    "cpiSource": "https://pbs.twimg.com/media/GmG_y-iW4AEkmVf?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/indian-wells-2025.jpg"
+   "cpiSourceLocal": "/sources/indian-wells-2025-0f6585b8.jpg"
   },
   {
    "tournament": "Miami",
@@ -2565,7 +2565,7 @@
    "rallyLength": 4.06,
    "rad": 0.9677,
    "cpiSource": "https://preview.redd.it/miami-2025-vs-2024-v0-81q10g65mvpe1.jpg?width=2048&format=pjpg&auto=webp&s=086b344436b18fcb55f465b8d29a0597bf0207e9",
-   "cpiSourceLocal": "/sources/miami-2025.jpg"
+   "cpiSourceLocal": "/sources/miami-2025-bb48429c.jpg"
   },
   {
    "tournament": "Monte Carlo",
@@ -2580,7 +2580,7 @@
    "rallyLength": 4.75,
    "rad": 0.9928,
    "cpiSource": "https://pbs.twimg.com/media/GoVIXpfXgAAPuYw?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/monte-carlo-2025.jpg"
+   "cpiSourceLocal": "/sources/monte-carlo-2025-ecc88d9f.jpg"
   },
   {
    "tournament": "Madrid",
@@ -2595,7 +2595,7 @@
    "rallyLength": 4.06,
    "rad": 0.9152,
    "cpiSource": "https://pbs.twimg.com/media/Gp8zfKQXcAAFpGs?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/madrid-2025.jpg"
+   "cpiSourceLocal": "/sources/madrid-2025-96622806.jpg"
   },
   {
    "tournament": "Rome",
@@ -2610,7 +2610,7 @@
    "rallyLength": 4.64,
    "rad": 0.9741,
    "cpiSource": "https://pbs.twimg.com/media/Gqk42zUXEAAAEKe?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/rome-2025.jpg"
+   "cpiSourceLocal": "/sources/rome-2025-57fca7b9.jpg"
   },
   {
    "tournament": "Roland Garros",
@@ -2651,7 +2651,7 @@
    "rallyLength": 3.7,
    "rad": 0.9531,
    "cpiSource": "https://pbs.twimg.com/media/GxkcovhWoAAuCzL?format=jpg&name=large",
-   "cpiSourceLocal": "/sources/canadian-open-2025.jpg"
+   "cpiSourceLocal": "/sources/canadian-open-2025-20e9f481.jpg"
   },
   {
    "tournament": "Cincinnati",
@@ -2666,7 +2666,7 @@
    "rallyLength": 3.58,
    "rad": 0.922,
    "cpiSource": "https://pbs.twimg.com/media/GyQDjTgWgAElTuu?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/cincinnati-2025.jpg"
+   "cpiSourceLocal": "/sources/cincinnati-2025-c0477b91.jpg"
   },
   {
    "tournament": "US Open",
@@ -2694,7 +2694,7 @@
    "rallyLength": 4.02,
    "rad": 0.9451,
    "cpiSource": "https://i.ibb.co/hhSf1B4/G2-UVFo-CXAAEFj-PO-1.jpg",
-   "cpiSourceLocal": "/sources/shanghai-2025.jpg"
+   "cpiSourceLocal": "/sources/shanghai-2025-e8a65850.jpg"
   },
   {
    "tournament": "Paris",
@@ -2709,7 +2709,7 @@
    "rallyLength": 4.05,
    "rad": null,
    "cpiSource": "https://i.ibb.co/rGbdJVYm/Untitled-2xxx.jpg",
-   "cpiSourceLocal": "/sources/paris-2025.jpg"
+   "cpiSourceLocal": "/sources/paris-2025-088785f6.jpg"
   },
   {
    "tournament": "ATP Finals",
@@ -2724,7 +2724,7 @@
    "rallyLength": 4.06,
    "rad": null,
    "cpiSource": "https://i.ibb.co/VYv3rNzM/Untitled-2sss.jpg",
-   "cpiSourceLocal": "/sources/atp-finals-2025.jpg"
+   "cpiSourceLocal": "/sources/atp-finals-2025-c5acaa7c.jpg"
   }
  ],
  "2026": [
@@ -2753,8 +2753,8 @@
    "holdPct": 0.822,
    "rallyLength": 4.14,
    "rad": 0.9538,
-   "cpiSource": "https://i.ibb.co/vfsGdzb/IW-2026-Day-1-and-avg-CPI.jpg",
-   "cpiSourceLocal": "/sources/indian-wells-2026.jpg"
+   "cpiSource": "https://i.postimg.cc/Nf4TCjzw/2026-CPI-Montreal-Indian-Wells.png",
+   "cpiSourceLocal": "/sources/indian-wells-2026-e96804b4.png"
   },
   {
    "tournament": "Miami",
@@ -2768,8 +2768,8 @@
    "holdPct": 0.844,
    "rallyLength": 3.93,
    "rad": 0.97,
-   "cpiSource": "https://i.postimg.cc/K8mzqgS7/Screenshot-2026-03-26-at-17-46-30.png",
-   "cpiSourceLocal": "/sources/miami-2026.png"
+   "cpiSource": "https://i.postimg.cc/Nf4TCjzw/2026-CPI-Montreal-Indian-Wells.png",
+   "cpiSourceLocal": "/sources/miami-2026-e96804b4.png"
   },
   {
    "tournament": "Monte Carlo",
@@ -2783,8 +2783,8 @@
    "holdPct": 0.735,
    "rallyLength": 4.62,
    "rad": 0.9835,
-   "cpiSource": "https://i.postimg.cc/L5rcd9D5/Screenshot-2026-04-11-at-12-58-30.png",
-   "cpiSourceLocal": "/sources/monte-carlo-2026.png"
+   "cpiSource": "https://i.postimg.cc/Nf4TCjzw/2026-CPI-Montreal-Indian-Wells.png",
+   "cpiSourceLocal": "/sources/monte-carlo-2026-e96804b4.png"
   },
   {
    "tournament": "Madrid",
@@ -2798,8 +2798,8 @@
    "holdPct": 0.831,
    "rallyLength": 3.84,
    "rad": 0.905,
-   "cpiSource": "https://i.postimg.cc/fy6fjKDF/Madrid-2026-Day-6-CPI.jpg",
-   "cpiSourceLocal": "/sources/madrid-2026.jpg"
+   "cpiSource": "https://i.postimg.cc/Nf4TCjzw/2026-CPI-Montreal-Indian-Wells.png",
+   "cpiSourceLocal": "/sources/madrid-2026-e96804b4.png"
   },
   {
    "tournament": "Rome",
@@ -2813,8 +2813,8 @@
    "holdPct": 0.772,
    "rallyLength": null,
    "rad": 0.977,
-   "cpiSource": "https://i.postimg.cc/j5n9bx6v/Day-4-CPI-Rome-2026-copy.png",
-   "cpiSourceLocal": "/sources/rome-2026.png"
+   "cpiSource": "https://i.postimg.cc/Nf4TCjzw/2026-CPI-Montreal-Indian-Wells.png",
+   "cpiSourceLocal": "/sources/rome-2026-e96804b4.png"
   },
   {
    "tournament": "Roland Garros",
@@ -2853,7 +2853,9 @@
    "ball": "Wilson",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://i.postimg.cc/Nf4TCjzw/2026-CPI-Montreal-Indian-Wells.png",
+   "cpiSourceLocal": "/sources/canadian-open-2026-e96804b4.png"
   },
   {
    "tournament": "Cincinnati",
