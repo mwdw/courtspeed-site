@@ -2744,7 +2744,7 @@
   {
    "tournament": "Indian Wells",
    "displayName": "Indian Wells",
-   "cpi": 39,
+   "cpi": 39.3,
    "surface": "Hard",
    "aceRate": 0.11,
    "winner": "Sinner",
@@ -2759,7 +2759,7 @@
   {
    "tournament": "Miami",
    "displayName": "Miami",
-   "cpi": 40,
+   "cpi": 39.2,
    "surface": "Hard",
    "aceRate": 0.128,
    "winner": "Sinner",
@@ -2774,7 +2774,7 @@
   {
    "tournament": "Monte Carlo",
    "displayName": "Monte Carlo",
-   "cpi": 26.7,
+   "cpi": 27.1,
    "surface": "Clay",
    "aceRate": 0.057,
    "winner": "Sinner",
@@ -2789,7 +2789,7 @@
   {
    "tournament": "Madrid",
    "displayName": "Madrid",
-   "cpi": 30.5,
+   "cpi": 29.8,
    "surface": "Clay",
    "aceRate": 0.093,
    "winner": "Sinner",
@@ -2804,7 +2804,7 @@
   {
    "tournament": "Rome",
    "displayName": "Rome",
-   "cpi": 25.3,
+   "cpi": 25.4,
    "surface": "Clay",
    "aceRate": 0.067,
    "winner": "Sinner",
@@ -2845,7 +2845,7 @@
   {
    "tournament": "Canadian Open",
    "displayName": "Montreal",
-   "cpi": null,
+   "cpi": 35.4,
    "surface": "Hard",
    "aceRate": null,
    "winner": null,
