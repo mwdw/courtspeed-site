@@ -15,6 +15,7 @@
  */
 import * as XLSX from 'xlsx';
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { dirname, join, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -77,7 +78,7 @@ async function loadWorkbookGviz() {
   return wb;
 }
 
-let wb;;
+let wb;
 try {
   wb = await loadWorkbook();
 } catch (e) {
@@ -135,6 +136,26 @@ if (existsSync(outPathPrev)) {
   } catch { /* stub or corrupt previous file — ignore */ }
 }
 
+// ---- manual source-link overrides ----
+// The xlsx export (the only format carrying cell hyperlinks) is refused from
+// datacenter IPs, so a link that CHANGES in the sheet is invisible to the CSV
+// fallback — the inherit step above would keep serving the stale one forever.
+// This file is the escape hatch: anything listed here always wins.
+//   { "2026": { "Canadian Open": "https://…" } }   tournament = canonical name
+const ovPath = join(ROOT, 'src', 'data', 'source_overrides.json');
+if (existsSync(ovPath)) {
+  try {
+    const ov = JSON.parse(readFileSync(ovPath, 'utf8'));
+    let applied = 0;
+    for (const [y, recs] of Object.entries(data))
+      for (const r of recs) {
+        const url = ov[y] && ov[y][r.tournament];
+        if (url && r.cpiSource !== url) { r.cpiSource = url; applied++; }
+      }
+    if (applied) console.log(`applied ${applied} source-link overrides`);
+  } catch { console.warn('source_overrides.json unreadable — ignored'); }
+}
+
 // ---- mirror source images ----
 if (!process.env.SKIP_IMAGES) {
   const dir = join(ROOT, 'public', 'sources');
@@ -145,7 +166,10 @@ if (!process.env.SKIP_IMAGES) {
       if (!r.cpiSource) continue;
       const slug = `${r.tournament.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${year}`;
       const ext = (extname(new URL(r.cpiSource).pathname) || '.jpg').slice(0, 5);
-      const file = `${slug}${ext}`;
+      // Hash the URL into the filename: the cache check below is existsSync, so
+      // without this a re-pointed link keeps serving the old mirrored image.
+      const hash = createHash('sha1').update(r.cpiSource).digest('hex').slice(0, 8);
+      const file = `${slug}-${hash}${ext}`;
       const local = join(dir, file);
       if (existsSync(local)) { r.cpiSourceLocal = `/sources/${file}`; cached++; continue; }
       try {
