@@ -782,7 +782,9 @@
    "ball": "Penn/Head",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg",
+   "cpiSourceLocal": "/sources/indian-wells-2016-c60f04ac.jpg"
   },
   {
    "tournament": "Miami",
@@ -795,7 +797,9 @@
    "ball": "Penn/Head",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png",
+   "cpiSourceLocal": "/sources/miami-2016-4e3ef6ef.png"
   },
   {
    "tournament": "Monte Carlo",
@@ -808,7 +812,9 @@
    "ball": "Dunlop",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg",
+   "cpiSourceLocal": "/sources/monte-carlo-2016-c60f04ac.jpg"
   },
   {
    "tournament": "Madrid",
@@ -821,7 +827,9 @@
    "ball": "Dunlop",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg",
+   "cpiSourceLocal": "/sources/madrid-2016-c60f04ac.jpg"
   },
   {
    "tournament": "Rome",
@@ -834,7 +842,9 @@
    "ball": "Dunlop",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg",
+   "cpiSourceLocal": "/sources/rome-2016-c60f04ac.jpg"
   },
   {
    "tournament": "Roland Garros",
@@ -873,7 +883,9 @@
    "ball": "Penn/Head",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg",
+   "cpiSourceLocal": "/sources/canadian-open-2016-c60f04ac.jpg"
   },
   {
    "tournament": "Cincinnati",
@@ -886,7 +898,9 @@
    "ball": "Penn/Head",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg",
+   "cpiSourceLocal": "/sources/cincinnati-2016-c60f04ac.jpg"
   },
   {
    "tournament": "US Open",
@@ -912,7 +926,9 @@
    "ball": "Srixon",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg",
+   "cpiSourceLocal": "/sources/shanghai-2016-c60f04ac.jpg"
   },
   {
    "tournament": "Paris",
@@ -925,7 +941,9 @@
    "ball": "Penn/Head",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://www.tennisabstract.com/blog/wp-content/uploads/2016/11/cpi2.jpg",
+   "cpiSourceLocal": "/sources/paris-2016-c60f04ac.jpg"
   },
   {
    "tournament": "ATP Finals",
@@ -938,7 +956,9 @@
    "ball": "Penn/Head",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
+   "cpiSourceLocal": "/sources/atp-finals-2016-701f06de.jpg"
   }
  ],
  "2017": [
