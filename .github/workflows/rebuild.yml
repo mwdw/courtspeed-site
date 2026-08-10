@@ -18,6 +18,8 @@ jobs:
         with: { node-version: 22 }
       - run: npm install --ignore-scripts --no-audit --no-fund
       - run: node scripts/sync.mjs
+        env:
+          SHEETS_API_KEY: ${{ secrets.SHEETS_API_KEY }}
       - name: commit if data changed
         run: |
           git add src/data/court_speed.json public/sources
