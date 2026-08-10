@@ -136,6 +136,49 @@ if (existsSync(outPathPrev)) {
   } catch { /* stub or corrupt previous file — ignore */ }
 }
 
+// ---- authoritative source links via the Sheets API ----
+// The xlsx export carries cell hyperlinks but Google refuses it from datacenter
+// IPs, and the CSV fallback strips them — so a link EDITED in the sheet used to
+// be invisible here forever. The Sheets API returns the hyperlink field from any
+// IP with a plain API key (the sheet is public-read), which makes the sheet the
+// source of truth again. Needs env SHEETS_API_KEY; without it we degrade to the
+// inherited links above, exactly as before.
+if (process.env.SHEETS_API_KEY) {
+  try {
+    const ranges = YEARS.map(y => `ranges=${encodeURIComponent(`CPI ${y}!A1:B40`)}`).join('&');
+    const fields = encodeURIComponent('sheets(properties/title,data/rowData/values(formattedValue,hyperlink))');
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}?key=${process.env.SHEETS_API_KEY}&${ranges}&fields=${fields}`;
+    const res = await fetch(url, { signal: AbortSignal.timeout(20000) });
+    if (!res.ok) throw new Error(`sheets api ${res.status}`);
+    const body = await res.json();
+    let set = 0, cleared = 0, tabs = 0;
+    for (const sheet of body.sheets || []) {
+      const year = String(sheet.properties?.title || '').replace(/^CPI\s*/, '');
+      const recs = data[year];
+      if (!recs) continue;
+      // name -> hyperlink, read straight off column B
+      const links = new Map();
+      for (const row of sheet.data?.[0]?.rowData || []) {
+        const name = row.values?.[0]?.formattedValue;
+        const link = row.values?.[1]?.hyperlink;
+        if (name && link) links.set((CANON.get(String(name).trim().toLowerCase()) || String(name).trim()), link);
+      }
+      // Only treat the API as authoritative for a tab it actually answered for,
+      // so a parse miss can never wipe good inherited links.
+      if (!links.size) continue;
+      tabs++;
+      for (const r of recs) {
+        const link = links.get(r.tournament);
+        if (link) { if (r.cpiSource !== link) set++; r.cpiSource = link; }
+        else if (r.cpiSource) { delete r.cpiSource; cleared++; }
+      }
+    }
+    console.log(`sheets api: ${tabs} tabs, ${set} links set, ${cleared} cleared`);
+  } catch (e) {
+    console.warn(`sheets api failed (${e.message}) — keeping inherited links`);
+  }
+}
+
 // ---- manual source-link overrides ----
 // The xlsx export (the only format carrying cell hyperlinks) is refused from
 // datacenter IPs, so a link that CHANGES in the sheet is invisible to the CSV
