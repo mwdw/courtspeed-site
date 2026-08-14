@@ -2880,7 +2880,7 @@
   {
    "tournament": "Cincinnati",
    "displayName": "Cincinnati",
-   "cpi": null,
+   "cpi": 37.4,
    "surface": "Hard",
    "aceRate": null,
    "winner": null,
@@ -2888,7 +2888,9 @@
    "ball": "Wilson",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://i.postimg.cc/d0nNVFQx/Screenshot-2026-08-14-at-16-04-09.png",
+   "cpiSourceLocal": "/sources/cincinnati-2026-73918487.png"
   },
   {
    "tournament": "US Open",
