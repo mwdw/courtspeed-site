@@ -2759,7 +2759,7 @@
    "ball": "Dunlop",
    "holdPct": 0.809,
    "rallyLength": 4.02,
-   "rad": 0.9595
+   "rad": 0.9614
   },
   {
    "tournament": "Indian Wells",
@@ -2868,12 +2868,12 @@
    "cpi": 35.4,
    "surface": "Hard",
    "aceRate": null,
-   "winner": null,
+   "winner": "Shelton",
    "elevation": 60,
    "ball": "Wilson",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null,
+   "rad": 0.9508,
    "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
    "cpiSourceLocal": "/sources/canadian-open-2026-943c1367.jpg"
   },
