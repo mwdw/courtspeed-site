@@ -2867,7 +2867,7 @@
    "displayName": "Montreal",
    "cpi": 35.4,
    "surface": "Hard",
-   "aceRate": null,
+   "aceRate": 0.093,
    "winner": "Shelton",
    "elevation": 60,
    "ball": "Wilson",
