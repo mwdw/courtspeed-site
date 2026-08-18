@@ -2831,7 +2831,7 @@
    "elevation": 25,
    "ball": "Dunlop",
    "holdPct": 0.772,
-   "rallyLength": null,
+   "rallyLength": 4.56,
    "rad": 0.977,
    "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
    "cpiSourceLocal": "/sources/rome-2026-943c1367.jpg"
@@ -2872,7 +2872,7 @@
    "elevation": 60,
    "ball": "Wilson",
    "holdPct": null,
-   "rallyLength": null,
+   "rallyLength": 4.12,
    "rad": 0.9508,
    "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
    "cpiSourceLocal": "/sources/canadian-open-2026-943c1367.jpg"
