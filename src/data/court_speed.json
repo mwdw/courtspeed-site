@@ -2880,7 +2880,7 @@
   {
    "tournament": "Cincinnati",
    "displayName": "Cincinnati",
-   "cpi": 38,
+   "cpi": 39,
    "surface": "Hard",
    "aceRate": null,
    "winner": "Fils",
@@ -2889,8 +2889,8 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.postimg.cc/FFLfmcsx/Screenshot-2026-08-18-at-16-05-16.png",
-   "cpiSourceLocal": "/sources/cincinnati-2026-e7d90703.png"
+   "cpiSource": "https://i.postimg.cc/DZqyF7Qz/Screenshot-2026-08-23-at-15-36-08.png",
+   "cpiSourceLocal": "/sources/cincinnati-2026-3be54b5d.png"
   },
   {
    "tournament": "US Open",
