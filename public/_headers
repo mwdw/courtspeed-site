@@ -1,3 +1,9 @@
+# Mirrored charts are named by a hash of their contents, so a given filename can
+# never change. Cloudflare's 4h default with must-revalidate meant ~90 conditional
+# requests on every navigation.
+/sources/*
+  Cache-Control: public, max-age=31536000, immutable
+
 /*
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
