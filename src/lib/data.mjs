@@ -95,6 +95,7 @@ export function clientPayload() {
       rad: r.rad, elevation: r.elevation, ball: r.ball, winner: r.winner,
       holdPct: r.holdPct, osr: r.osr, osrLabel: r.osrLabel,
       cpiSource: r.cpiSourceLocal || r.cpiSource,
+      ...(r.cpiSourceThumb ? { cpiThumb: r.cpiSourceThumb } : {}),
     };
     if (r.displayName && r.displayName !== r.tournament) D[k].displayName = r.displayName;
   }
