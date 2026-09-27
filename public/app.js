@@ -65,7 +65,7 @@ function summary(t, y, r, big) {
   if (vc) h += `<div class="tip-vc">▌ ${vc.replace('Venue change — ', 'Venue change: ')}</div>`;
   if (r.cpiSource) h += big
     ? `<a href="${r.cpiSource}" target="_blank" rel="noopener"><img src="${r.cpiSource}" alt="CPI source chart" onerror="this.outerHTML='<p class=tip-src><a href=&quot;${r.cpiSource}&quot; target=_blank>View source chart →</a></p>'"></a>`
-    : `<img class="tip-img" src="${r.cpiSource}" alt="" onerror="this.remove()">`;
+    : `<img class="tip-img" src="${r.cpiThumb || r.cpiSource}" alt="" onerror="this.remove()">`;
   return h;
 }
 
@@ -144,9 +144,18 @@ document.addEventListener('click', e => {
   }
 });
 
-/* prefetch source images so tooltips & modals are instant */
+/* Prefetch the tooltip THUMBNAILS only (~8KB each), never the full charts —
+   prefetching the originals pulled ~20MB on every page load. The modal image is
+   fetched on click, by which point one request is unnoticeable. Deduped by src,
+   since one chart is often shared across several tournament-years. */
 addEventListener('load', () => setTimeout(() => {
-  Object.values(D).forEach(r => { if (r.cpiSource) { const i = new Image(); i.src = r.cpiSource; } });
+  const seen = new Set();
+  Object.values(D).forEach(r => {
+    const u = r.cpiThumb || r.cpiSource;
+    if (!u || seen.has(u)) return;
+    seen.add(u);
+    const i = new Image(); i.src = u;
+  });
 }, 1200));
 
 /* trends */
