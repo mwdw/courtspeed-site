@@ -14,7 +14,7 @@
  *   SKIP_IMAGES=1                 skip the image mirror step
  */
 import * as XLSX from 'xlsx';
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, unlinkSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { dirname, join, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -200,33 +200,82 @@ if (existsSync(ovPath)) {
 }
 
 // ---- mirror source images ----
+// Files are named by a hash of their CONTENT, not of the URL or the tournament,
+// so the same chart shared by several tournament-years is stored once instead of
+// a dozen times. Each original becomes two WebP derivatives: a ~420px thumb for
+// the hover tooltip (which only ever renders 150px tall) and a 1200px version
+// for the click-through modal. The originals were 350-950KB apiece and the page
+// prefetches every one of them, so this is the difference between a ~20MB page
+// and a ~350KB one.
+//
+// source_manifest.json maps url -> written filenames. Without it we could not
+// skip re-downloading, since the content hash is unknowable until we fetch.
 if (!process.env.SKIP_IMAGES) {
   const dir = join(ROOT, 'public', 'sources');
   mkdirSync(dir, { recursive: true });
-  let ok = 0, fail = 0, cached = 0;
-  for (const [year, recs] of Object.entries(data)) {
+  const manPath = join(ROOT, 'src', 'data', 'source_manifest.json');
+  let man = {};
+  try { man = JSON.parse(readFileSync(manPath, 'utf8')); } catch { /* first run */ }
+
+  let sharp = null;
+  try { sharp = (await import('sharp')).default; }
+  catch { console.warn('sharp unavailable — mirroring originals without resizing'); }
+
+  const keep = new Set();
+  let ok = 0, fail = 0, cached = 0, deduped = 0;
+
+  for (const recs of Object.values(data)) {
     for (const r of recs) {
       if (!r.cpiSource) continue;
-      const slug = `${r.tournament.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${year}`;
-      const ext = (extname(new URL(r.cpiSource).pathname) || '.jpg').slice(0, 5);
-      // Hash the URL into the filename: the cache check below is existsSync, so
-      // without this a re-pointed link keeps serving the old mirrored image.
-      const hash = createHash('sha1').update(r.cpiSource).digest('hex').slice(0, 8);
-      const file = `${slug}-${hash}${ext}`;
-      const local = join(dir, file);
-      if (existsSync(local)) { r.cpiSourceLocal = `/sources/${file}`; cached++; continue; }
+      const hit = man[r.cpiSource];
+      if (hit && existsSync(join(dir, hit.f)) && existsSync(join(dir, hit.t))) {
+        r.cpiSourceLocal = `/sources/${hit.f}`;
+        r.cpiSourceThumb = `/sources/${hit.t}`;
+        keep.add(hit.f); keep.add(hit.t);
+        cached++;
+        continue;
+      }
       try {
         const res = await fetch(r.cpiSource, { redirect: 'follow', signal: AbortSignal.timeout(15000) });
         if (!res.ok) throw new Error(res.status);
-        writeFileSync(local, Buffer.from(await res.arrayBuffer()));
-        r.cpiSourceLocal = `/sources/${file}`;
+        const buf = Buffer.from(await res.arrayBuffer());
+        const h = createHash('sha1').update(buf).digest('hex').slice(0, 12);
+        let entry;
+        if (sharp) {
+          entry = { f: `${h}.webp`, t: `${h}-t.webp` };
+          if (!existsSync(join(dir, entry.f)))
+            await sharp(buf).resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 80 }).toFile(join(dir, entry.f));
+          else deduped++;
+          if (!existsSync(join(dir, entry.t)))
+            await sharp(buf).resize({ width: 420, withoutEnlargement: true }).webp({ quality: 72 }).toFile(join(dir, entry.t));
+        } else {
+          // Fallback: keep the original bytes so a sharp failure degrades to the
+          // previous behaviour rather than breaking the build.
+          const ext = (extname(new URL(r.cpiSource).pathname) || '.jpg').slice(0, 5);
+          entry = { f: `${h}${ext}`, t: `${h}${ext}` };
+          if (!existsSync(join(dir, entry.f))) writeFileSync(join(dir, entry.f), buf);
+          else deduped++;
+        }
+        man[r.cpiSource] = entry;
+        r.cpiSourceLocal = `/sources/${entry.f}`;
+        r.cpiSourceThumb = `/sources/${entry.t}`;
+        keep.add(entry.f); keep.add(entry.t);
         ok++;
-      } catch (e) {
+      } catch {
         fail++; // tooltip falls back to the remote URL
       }
     }
   }
-  console.log(`images: ${ok} downloaded, ${cached} cached, ${fail} failed (remote fallback)`);
+
+  // Drop files no longer referenced, else every renamed image lingers forever.
+  let pruned = 0;
+  for (const f of readdirSync(dir)) if (!keep.has(f)) { unlinkSync(join(dir, f)); pruned++; }
+  // Keep the manifest to the URLs still in use.
+  const live = new Set(Object.values(data).flat().map(r => r.cpiSource).filter(Boolean));
+  for (const u of Object.keys(man)) if (!live.has(u)) delete man[u];
+  writeFileSync(manPath, JSON.stringify(man, null, 1));
+
+  console.log(`images: ${ok} processed, ${cached} cached, ${deduped} deduped, ${pruned} pruned, ${fail} failed (remote fallback)`);
 }
 
 const outPath = join(ROOT, 'src', 'data', 'court_speed.json');
