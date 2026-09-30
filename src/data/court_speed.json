@@ -184,7 +184,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
+   "cpiSourceLocal": "/sources/213ce96a8cca.webp",
+   "cpiSourceThumb": "/sources/213ce96a8cca-t.webp"
   }
  ],
  "2013": [
@@ -226,7 +228,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png"
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png",
+   "cpiSourceLocal": "/sources/94dab49b1312.webp",
+   "cpiSourceThumb": "/sources/94dab49b1312-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -373,7 +377,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
+   "cpiSourceLocal": "/sources/213ce96a8cca.webp",
+   "cpiSourceThumb": "/sources/213ce96a8cca-t.webp"
   }
  ],
  "2014": [
@@ -415,7 +421,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png"
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png",
+   "cpiSourceLocal": "/sources/94dab49b1312.webp",
+   "cpiSourceThumb": "/sources/94dab49b1312-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -562,7 +570,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
+   "cpiSourceLocal": "/sources/213ce96a8cca.webp",
+   "cpiSourceThumb": "/sources/213ce96a8cca-t.webp"
   }
  ],
  "2015": [
@@ -604,7 +614,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png"
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png",
+   "cpiSourceLocal": "/sources/94dab49b1312.webp",
+   "cpiSourceThumb": "/sources/94dab49b1312-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -751,7 +763,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
+   "cpiSourceLocal": "/sources/213ce96a8cca.webp",
+   "cpiSourceThumb": "/sources/213ce96a8cca-t.webp"
   }
  ],
  "2016": [
@@ -796,7 +810,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png"
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png",
+   "cpiSourceLocal": "/sources/94dab49b1312.webp",
+   "cpiSourceThumb": "/sources/94dab49b1312-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -961,7 +977,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
+   "cpiSourceLocal": "/sources/213ce96a8cca.webp",
+   "cpiSourceThumb": "/sources/213ce96a8cca-t.webp"
   }
  ],
  "2017": [
@@ -1185,7 +1203,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
+   "cpiSourceLocal": "/sources/213ce96a8cca.webp",
+   "cpiSourceThumb": "/sources/213ce96a8cca-t.webp"
   }
  ],
  "2018": [
@@ -1391,7 +1411,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg"
+   "cpiSource": "https://i.ibb.co/93brzhF0/London-Updated.jpg",
+   "cpiSourceLocal": "/sources/213ce96a8cca.webp",
+   "cpiSourceThumb": "/sources/213ce96a8cca-t.webp"
   }
  ],
  "2019": [
@@ -1459,7 +1481,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.postimg.cc/YSpy1tyf/IMG-0536.jpg"
+   "cpiSource": "https://i.postimg.cc/YSpy1tyf/IMG-0536.jpg",
+   "cpiSourceLocal": "/sources/579140914734.webp",
+   "cpiSourceThumb": "/sources/579140914734-t.webp"
   },
   {
    "tournament": "Rome",
@@ -1950,7 +1974,9 @@
    "holdPct": null,
    "rallyLength": 4.46,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/HTtgtNGV/the-process-of-speeding-up-the-courts-in-recent-years-v0-vsmwm7hp4pxd1.jpg"
+   "cpiSource": "https://i.ibb.co/HTtgtNGV/the-process-of-speeding-up-the-courts-in-recent-years-v0-vsmwm7hp4pxd1.jpg",
+   "cpiSourceLocal": "/sources/5a393ea66110.webp",
+   "cpiSourceThumb": "/sources/5a393ea66110-t.webp"
   },
   {
    "tournament": "ATP Finals",
@@ -1964,7 +1990,9 @@
    "holdPct": null,
    "rallyLength": 4.3,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/mVXz87dy/Untitled-2.jpg"
+   "cpiSource": "https://i.ibb.co/mVXz87dy/Untitled-2.jpg",
+   "cpiSourceLocal": "/sources/1a6ae9605961.webp",
+   "cpiSourceThumb": "/sources/1a6ae9605961-t.webp"
   }
  ],
  "2022": [
@@ -2142,7 +2170,9 @@
    "holdPct": null,
    "rallyLength": 4.2,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/HTtgtNGV/the-process-of-speeding-up-the-courts-in-recent-years-v0-vsmwm7hp4pxd1.jpg"
+   "cpiSource": "https://i.ibb.co/HTtgtNGV/the-process-of-speeding-up-the-courts-in-recent-years-v0-vsmwm7hp4pxd1.jpg",
+   "cpiSourceLocal": "/sources/5a393ea66110.webp",
+   "cpiSourceThumb": "/sources/5a393ea66110-t.webp"
   },
   {
    "tournament": "ATP Finals",
@@ -2156,7 +2186,9 @@
    "holdPct": null,
    "rallyLength": 4.08,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png"
+   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png",
+   "cpiSourceLocal": "/sources/9b1fb258b2e5.webp",
+   "cpiSourceThumb": "/sources/9b1fb258b2e5-t.webp"
   }
  ],
  "2023": [
@@ -2352,7 +2384,9 @@
    "holdPct": null,
    "rallyLength": 4.08,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/HTtgtNGV/the-process-of-speeding-up-the-courts-in-recent-years-v0-vsmwm7hp4pxd1.jpg"
+   "cpiSource": "https://i.ibb.co/HTtgtNGV/the-process-of-speeding-up-the-courts-in-recent-years-v0-vsmwm7hp4pxd1.jpg",
+   "cpiSourceLocal": "/sources/5a393ea66110.webp",
+   "cpiSourceThumb": "/sources/5a393ea66110-t.webp"
   },
   {
    "tournament": "ATP Finals",
@@ -2366,7 +2400,9 @@
    "holdPct": null,
    "rallyLength": 4.1,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png"
+   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png",
+   "cpiSourceLocal": "/sources/9b1fb258b2e5.webp",
+   "cpiSourceThumb": "/sources/9b1fb258b2e5-t.webp"
   }
  ],
  "2024": [
@@ -2578,7 +2614,9 @@
    "holdPct": null,
    "rallyLength": 4.39,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/mVXz87dy/Untitled-2.jpg"
+   "cpiSource": "https://i.ibb.co/mVXz87dy/Untitled-2.jpg",
+   "cpiSourceLocal": "/sources/1a6ae9605961.webp",
+   "cpiSourceThumb": "/sources/1a6ae9605961-t.webp"
   }
  ],
  "2025": [
@@ -2758,7 +2796,9 @@
    "holdPct": 0.83,
    "rallyLength": 4.02,
    "rad": 0.9451,
-   "cpiSource": "https://i.ibb.co/hhSf1B4/G2-UVFo-CXAAEFj-PO-1.jpg"
+   "cpiSource": "https://i.ibb.co/hhSf1B4/G2-UVFo-CXAAEFj-PO-1.jpg",
+   "cpiSourceLocal": "/sources/d53171ed22ec.webp",
+   "cpiSourceThumb": "/sources/d53171ed22ec-t.webp"
   },
   {
    "tournament": "Paris",
@@ -2772,7 +2812,9 @@
    "holdPct": 0.81,
    "rallyLength": 4.05,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/rGbdJVYm/Untitled-2xxx.jpg"
+   "cpiSource": "https://i.ibb.co/rGbdJVYm/Untitled-2xxx.jpg",
+   "cpiSourceLocal": "/sources/e0e1de515382.webp",
+   "cpiSourceThumb": "/sources/e0e1de515382-t.webp"
   },
   {
    "tournament": "ATP Finals",
@@ -2786,7 +2828,9 @@
    "holdPct": 0.865,
    "rallyLength": 4.06,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/VYv3rNzM/Untitled-2sss.jpg"
+   "cpiSource": "https://i.ibb.co/VYv3rNzM/Untitled-2sss.jpg",
+   "cpiSourceLocal": "/sources/1e85336067c7.webp",
+   "cpiSourceThumb": "/sources/1e85336067c7-t.webp"
   }
  ],
  "2026": [
@@ -2815,7 +2859,9 @@
    "holdPct": 0.822,
    "rallyLength": 4.14,
    "rad": 0.9538,
-   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg"
+   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
+   "cpiSourceLocal": "/sources/84880698525b.webp",
+   "cpiSourceThumb": "/sources/84880698525b-t.webp"
   },
   {
    "tournament": "Miami",
@@ -2829,7 +2875,9 @@
    "holdPct": 0.844,
    "rallyLength": 3.93,
    "rad": 0.97,
-   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg"
+   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
+   "cpiSourceLocal": "/sources/84880698525b.webp",
+   "cpiSourceThumb": "/sources/84880698525b-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -2843,7 +2891,9 @@
    "holdPct": 0.735,
    "rallyLength": 4.62,
    "rad": 0.9835,
-   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg"
+   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
+   "cpiSourceLocal": "/sources/84880698525b.webp",
+   "cpiSourceThumb": "/sources/84880698525b-t.webp"
   },
   {
    "tournament": "Madrid",
@@ -2857,7 +2907,9 @@
    "holdPct": 0.831,
    "rallyLength": 3.84,
    "rad": 0.905,
-   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg"
+   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
+   "cpiSourceLocal": "/sources/84880698525b.webp",
+   "cpiSourceThumb": "/sources/84880698525b-t.webp"
   },
   {
    "tournament": "Rome",
@@ -2929,7 +2981,9 @@
    "holdPct": 0.817,
    "rallyLength": 3.82,
    "rad": 0.9307,
-   "cpiSource": "https://i.postimg.cc/DZqyF7Qz/Screenshot-2026-08-23-at-15-36-08.png"
+   "cpiSource": "https://i.postimg.cc/DZqyF7Qz/Screenshot-2026-08-23-at-15-36-08.png",
+   "cpiSourceLocal": "/sources/5887ed5a1c7b.webp",
+   "cpiSourceThumb": "/sources/5887ed5a1c7b-t.webp"
   },
   {
    "tournament": "US Open",
