@@ -3001,7 +3001,7 @@
   {
    "tournament": "Shanghai",
    "displayName": "Shanghai",
-   "cpi": null,
+   "cpi": 42.3,
    "surface": "Hard",
    "aceRate": null,
    "winner": null,
@@ -3009,7 +3009,10 @@
    "ball": "Yonex",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://i.postimg.cc/zfgqN94C/Shanghai-2026-CPI-Day-1.jpg",
+   "cpiSourceLocal": "/sources/4e994ecd6f5d.webp",
+   "cpiSourceThumb": "/sources/4e994ecd6f5d-t.webp"
   },
   {
    "tournament": "Paris",
