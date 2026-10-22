@@ -1028,8 +1028,8 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.snipboard.io/DOWfl7.jpg",
-   "cpiSourceLocal": "/sources/09597c483b36.webp",
-   "cpiSourceThumb": "/sources/09597c483b36-t.webp"
+   "cpiSourceLocal": "/sources/94dab49b1312.webp",
+   "cpiSourceThumb": "/sources/94dab49b1312-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -2202,7 +2202,7 @@
    "elevation": 9,
    "ball": "Dunlop",
    "holdPct": null,
-   "rallyLength": 4.16,
+   "rallyLength": 4.29,
    "rad": 0.9671
   },
   {
@@ -2416,7 +2416,7 @@
    "elevation": 9,
    "ball": "Dunlop",
    "holdPct": null,
-   "rallyLength": 4.11,
+   "rallyLength": 4.2,
    "rad": 0.9676
   },
   {
@@ -2630,7 +2630,7 @@
    "elevation": 9,
    "ball": "Dunlop",
    "holdPct": 0.807,
-   "rallyLength": 3.87,
+   "rallyLength": 4.02,
    "rad": 0.9641
   },
   {
@@ -2844,7 +2844,7 @@
    "elevation": 9,
    "ball": "Dunlop",
    "holdPct": 0.809,
-   "rallyLength": 3.81,
+   "rallyLength": 3.92,
    "rad": 0.9614
   },
   {
