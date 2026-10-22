@@ -1028,8 +1028,8 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.snipboard.io/DOWfl7.jpg",
-   "cpiSourceLocal": "/sources/94dab49b1312.webp",
-   "cpiSourceThumb": "/sources/94dab49b1312-t.webp"
+   "cpiSourceLocal": "/sources/09597c483b36.webp",
+   "cpiSourceThumb": "/sources/09597c483b36-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -1888,7 +1888,7 @@
    "elevation": 40,
    "ball": "Wilson",
    "holdPct": null,
-   "rallyLength": 4.56,
+   "rallyLength": null,
    "rad": 0.9762
   },
   {
@@ -2084,7 +2084,7 @@
    "elevation": 40,
    "ball": "Wilson",
    "holdPct": null,
-   "rallyLength": 4.8,
+   "rallyLength": null,
    "rad": 0.9837
   },
   {
@@ -2202,7 +2202,7 @@
    "elevation": 9,
    "ball": "Dunlop",
    "holdPct": null,
-   "rallyLength": null,
+   "rallyLength": 4.16,
    "rad": 0.9671
   },
   {
@@ -2295,7 +2295,7 @@
    "elevation": 40,
    "ball": "Wilson",
    "holdPct": null,
-   "rallyLength": 4.75,
+   "rallyLength": null,
    "rad": 0.9685
   },
   {
@@ -2416,7 +2416,7 @@
    "elevation": 9,
    "ball": "Dunlop",
    "holdPct": null,
-   "rallyLength": 4.23,
+   "rallyLength": 4.11,
    "rad": 0.9676
   },
   {
@@ -2509,7 +2509,7 @@
    "elevation": 40,
    "ball": "Wilson",
    "holdPct": null,
-   "rallyLength": 4.78,
+   "rallyLength": null,
    "rad": 0.9899
   },
   {
@@ -2567,7 +2567,7 @@
    "elevation": 2,
    "ball": "Wilson",
    "holdPct": null,
-   "rallyLength": 3.8,
+   "rallyLength": 3.79,
    "rad": 0.9684
   },
   {
@@ -2630,7 +2630,7 @@
    "elevation": 9,
    "ball": "Dunlop",
    "holdPct": 0.807,
-   "rallyLength": 4.01,
+   "rallyLength": 3.87,
    "rad": 0.9641
   },
   {
@@ -2723,7 +2723,7 @@
    "elevation": 40,
    "ball": "Wilson",
    "holdPct": null,
-   "rallyLength": 4.55,
+   "rallyLength": null,
    "rad": 0.9779
   },
   {
@@ -2781,7 +2781,7 @@
    "elevation": 2,
    "ball": "Wilson",
    "holdPct": null,
-   "rallyLength": 3.8,
+   "rallyLength": 3.74,
    "rad": 0.9642
   },
   {
@@ -2844,7 +2844,7 @@
    "elevation": 9,
    "ball": "Dunlop",
    "holdPct": 0.809,
-   "rallyLength": 4.02,
+   "rallyLength": 3.81,
    "rad": 0.9614
   },
   {
@@ -2937,7 +2937,7 @@
    "elevation": 40,
    "ball": "Wilson",
    "holdPct": null,
-   "rallyLength": 4.7,
+   "rallyLength": null,
    "rad": 0.966
   },
   {
@@ -2950,7 +2950,7 @@
    "elevation": 36,
    "ball": "Slazenger",
    "holdPct": 0.829,
-   "rallyLength": 3.53,
+   "rallyLength": 3.59,
    "rad": 0.9596
   },
   {
