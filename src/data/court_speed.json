@@ -2812,7 +2812,9 @@
    "holdPct": 0.81,
    "rallyLength": 4.05,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/rGbdJVYm/Untitled-2xxx.jpg"
+   "cpiSource": "https://i.ibb.co/rGbdJVYm/Untitled-2xxx.jpg",
+   "cpiSourceLocal": "/sources/e0e1de515382.webp",
+   "cpiSourceThumb": "/sources/e0e1de515382-t.webp"
   },
   {
    "tournament": "ATP Finals",
