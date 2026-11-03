@@ -123,13 +123,21 @@ export const LEGEND = {
 };
 
 // ---- sidebar ----
-export function sidebar(nowY = 2026, nowM = 6) {
-  const inLast12 = (t, y) => (+y === nowY && MONTH[t] <= nowM) || (+y === nowY - 1 && MONTH[t] > nowM);
+export function sidebar(now = new Date()) {
+  /* "Last 12 months" = each tournament's most recent edition with a CPI, kept
+     if it was played within the last 12 months of the BUILD date (month
+     granularity, via MONTH). One entry per tournament, so a new edition
+     replaces last year's automatically. This used to default to a hardcoded
+     June 2026 and silently froze; never pin it to a literal date again. */
+  const nowIdx = now.getFullYear() * 12 + now.getMonth() + 1;
   const last12 = [];
   for (const t of ORDER)
-    for (const y of [String(nowY - 1), String(nowY)]) {
+    for (const y of [...YEARS].reverse()) {
       const r = R.get(`${t}|${y}`);
-      if (r && inLast12(t, y) && r.cpi != null) last12.push([t, +y, r.cpi]);
+      if (r && r.cpi != null) {
+        if (nowIdx - (+y * 12 + MONTH[t]) <= 12) last12.push([t, +y, r.cpi]);
+        break;
+      }
     }
   last12.sort((a, b) => b[2] - a[2]);
   const li = ([t, y, c]) =>
