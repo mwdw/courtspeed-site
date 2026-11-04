@@ -3,7 +3,7 @@
 const payload = JSON.parse(document.getElementById('cs-data').textContent);
 const { D, SURF, ORDER, YEARS, COVID, VC, VCSHORT } = payload;
 const BANDS = ['Slow', 'Medium-slow', 'Medium', 'Medium-fast', 'Fast'];
-const cpiBand = v => v < 30 ? 0 : v < 35 ? 1 : v < 40 ? 2 : v <= 44 ? 3 : 4;
+const cpiBand = v => v < 30 ? 0 : v < 35 ? 1 : v < 40 ? 2 : v < 45 ? 3 : 4; /* keep in sync with src/lib/data.mjs */
 const radBand = v => v > 1.0 ? 0 : v > 0.975 ? 1 : v > 0.96 ? 2 : v > 0.94 ? 3 : 4;
 const score = (v, a, b) => Math.max(0, Math.min(100, (v - a) / (b - a) * 100));
 const sBand = s => s < 30 ? 0 : s < 45 ? 1 : s < 55 ? 2 : s < 70 ? 3 : 4;
