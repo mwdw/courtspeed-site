@@ -116,7 +116,7 @@ export function matrix(viewKey, { avg = false, ballmarks = false, novc = false }
 const chips = ranges => ranges.map(([rng, lab], i) =>
   `<span class="chip b${i}"><b>${rng}</b> ${lab}</span>`).join('');
 export const LEGEND = {
-  cpi: chips([['<30', 'Slow'], ['30–34', 'Medium-slow'], ['35–39', 'Medium'], ['40–44', 'Medium-fast'], ['>44', 'Fast']]),
+  cpi: chips([['<30', 'Slow'], ['30–34.9', 'Medium-slow'], ['35–39.9', 'Medium'], ['40–44.9', 'Medium-fast'], ['45+', 'Fast']]),
   ace: chips([['<7%', 'Low'], ['7–8.5', 'Medium-low'], ['8.5–9.5', 'Medium'], ['9.5–11', 'Medium-high'], ['>11%', 'High']]),
   rally: chips([['>4.7', 'Long'], ['4.4–4.7', 'Medium-long'], ['4.2–4.4', 'Medium'], ['3.9–4.2', 'Medium-short'], ['<3.9', 'Short']]),
   rad: chips([['>1.0', 'Dense'], ['0.975–1.0', 'Denser'], ['0.96–0.975', 'Medium'], ['0.94–0.96', 'Thinner'], ['<0.94', 'Thin']]),

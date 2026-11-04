@@ -47,8 +47,9 @@ export const bandFromScore = s => s == null ? null : s < 30 ? 0 : s < 45 ? 1 : s
 /* legend-exact bands for the ace & rally matrices (sAce/sRally above feed OSR only) */
 export const aceBand = v => v < 0.07 ? 0 : v <= 0.085 ? 1 : v <= 0.095 ? 2 : v <= 0.11 ? 3 : 4;
 export const rallyBand = v => v > 4.7 ? 0 : v >= 4.4 ? 1 : v >= 4.2 ? 2 : v >= 3.9 ? 3 : 4;
-// sheet bands: <30 / 30-34 / 35-39 / 40-44 / >44 (44.1 is FAST)
-export const cpiBand = v => v == null ? null : v < 30 ? 0 : v < 35 ? 1 : v < 40 ? 2 : v <= 44 ? 3 : 4;
+// CPI bands, each 5 wide and half-open: <30 / 30-34.9 / 35-39.9 / 40-44.9 / 45+
+// (ITF categories). Until Nov 2026 the top edge was <=44, so 44.1 counted as Fast.
+export const cpiBand = v => v == null ? null : v < 30 ? 0 : v < 35 ? 1 : v < 40 ? 2 : v < 45 ? 3 : 4;
 // original-site RAD bands: >1.0 Dense … <0.94 Thin
 export const radBand = v => v == null ? null : v > 1.0 ? 0 : v > 0.975 ? 1 : v > 0.96 ? 2 : v > 0.94 ? 3 : 4;
 
