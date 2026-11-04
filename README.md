@@ -47,8 +47,8 @@ changing `sync.mjs` use Actions, sheet-sync, Run workflow to test it.
 ## Where things live
 
 * `src/lib/data.mjs`: data model, scoring, OSR calibration, bands. CPI bands are
-  `<30 / 30-34 / 35-39 / 40-44 / >44`, and 44.1 counts as **Fast** because the boundary is `<=44`,
-  not `<45`.
+  `<30 / 30-34.9 / 35-39.9 / 40-44.9 / 45+`, each five wide, matching the ITF categories. The same
+  thresholds live in `public/app.js` and must be kept in sync.
 * `src/lib/render.mjs`: server-side HTML builders (matrix tables, legends, sidebar, logo)
 * `src/layouts/Base.astro`: header, nav, sidebar, footer, modals, embedded JSON payload
 * `public/app.js`: theme, filters, hover tooltips, tap modals, year summaries, trend charts
