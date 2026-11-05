@@ -1376,7 +1376,7 @@
   {
    "tournament": "Shanghai",
    "displayName": "Shanghai",
-   "cpi": 40,
+   "cpi": 39.9,
    "surface": "Hard",
    "aceRate": 0.123,
    "winner": "Djokovic",
@@ -1384,7 +1384,10 @@
    "ball": "Dunlop*",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://preview.redd.it/2017-18-court-pace-index-cpi-for-masters-1000-events-v0-1whx98a9vzr11.jpg?width=1080&crop=smart&auto=webp&s=106bb819489584cb5f8d6b9fec37bf1da5845637",
+   "cpiSourceLocal": "/sources/729e6a926638.webp",
+   "cpiSourceThumb": "/sources/729e6a926638-t.webp"
   },
   {
    "tournament": "Paris",
