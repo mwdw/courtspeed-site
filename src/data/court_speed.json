@@ -2859,9 +2859,9 @@
    "holdPct": 0.822,
    "rallyLength": 4.14,
    "rad": 0.9538,
-   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
-   "cpiSourceLocal": "/sources/84880698525b.webp",
-   "cpiSourceThumb": "/sources/84880698525b-t.webp"
+   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Miami",
@@ -2875,9 +2875,9 @@
    "holdPct": 0.844,
    "rallyLength": 3.93,
    "rad": 0.97,
-   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
-   "cpiSourceLocal": "/sources/84880698525b.webp",
-   "cpiSourceThumb": "/sources/84880698525b-t.webp"
+   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -2891,9 +2891,9 @@
    "holdPct": 0.735,
    "rallyLength": 4.62,
    "rad": 0.9835,
-   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
-   "cpiSourceLocal": "/sources/84880698525b.webp",
-   "cpiSourceThumb": "/sources/84880698525b-t.webp"
+   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Madrid",
@@ -2907,9 +2907,9 @@
    "holdPct": 0.831,
    "rallyLength": 3.84,
    "rad": 0.905,
-   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
-   "cpiSourceLocal": "/sources/84880698525b.webp",
-   "cpiSourceThumb": "/sources/84880698525b-t.webp"
+   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Rome",
@@ -2923,9 +2923,9 @@
    "holdPct": 0.772,
    "rallyLength": 4.56,
    "rad": 0.977,
-   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
-   "cpiSourceLocal": "/sources/84880698525b.webp",
-   "cpiSourceThumb": "/sources/84880698525b-t.webp"
+   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Roland Garros",
@@ -2956,7 +2956,7 @@
   {
    "tournament": "Canadian Open",
    "displayName": "Montreal",
-   "cpi": 35.4,
+   "cpi": 36.5,
    "surface": "Hard",
    "aceRate": 0.093,
    "winner": "Shelton",
@@ -2965,14 +2965,14 @@
    "holdPct": null,
    "rallyLength": 4.12,
    "rad": 0.9508,
-   "cpiSource": "https://i.postimg.cc/kXgFYrqS/Untitled-2.jpg",
-   "cpiSourceLocal": "/sources/84880698525b.webp",
-   "cpiSourceThumb": "/sources/84880698525b-t.webp"
+   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Cincinnati",
    "displayName": "Cincinnati",
-   "cpi": 39,
+   "cpi": 40.4,
    "surface": "Hard",
    "aceRate": 0.117,
    "winner": "Fils",
@@ -2981,9 +2981,9 @@
    "holdPct": 0.817,
    "rallyLength": 3.82,
    "rad": 0.9307,
-   "cpiSource": "https://i.postimg.cc/DZqyF7Qz/Screenshot-2026-08-23-at-15-36-08.png",
-   "cpiSourceLocal": "/sources/5887ed5a1c7b.webp",
-   "cpiSourceThumb": "/sources/5887ed5a1c7b-t.webp"
+   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "US Open",
@@ -3010,14 +3010,14 @@
    "holdPct": 0.837,
    "rallyLength": 4.09,
    "rad": 0.9701,
-   "cpiSource": "https://i.postimg.cc/SKV649tW/Screenshot-2026-10-18-at-14-16-52.png",
-   "cpiSourceLocal": "/sources/9b69eb689ac8.webp",
-   "cpiSourceThumb": "/sources/9b69eb689ac8-t.webp"
+   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Paris",
    "displayName": "Paris",
-   "cpi": 48.2,
+   "cpi": 48.6,
    "surface": "Hard (Indoor)",
    "aceRate": null,
    "winner": null,
@@ -3026,9 +3026,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.postimg.cc/13VyFjz2/IMG-6988-2.jpg",
-   "cpiSourceLocal": "/sources/608e085695eb.webp",
-   "cpiSourceThumb": "/sources/608e085695eb-t.webp"
+   "cpiSource": "https://i.postimg.cc/kXYRkTPr/IMG-6988-2.jpg",
+   "cpiSourceLocal": "/sources/ce8cb7cd8335.webp",
+   "cpiSourceThumb": "/sources/ce8cb7cd8335-t.webp"
   },
   {
    "tournament": "ATP Finals",
