@@ -2189,7 +2189,9 @@
    "holdPct": null,
    "rallyLength": 4.08,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png"
+   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png",
+   "cpiSourceLocal": "/sources/9b1fb258b2e5.webp",
+   "cpiSourceThumb": "/sources/9b1fb258b2e5-t.webp"
   }
  ],
  "2023": [
@@ -2401,7 +2403,9 @@
    "holdPct": null,
    "rallyLength": 4.1,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png"
+   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png",
+   "cpiSourceLocal": "/sources/9b1fb258b2e5.webp",
+   "cpiSourceThumb": "/sources/9b1fb258b2e5-t.webp"
   }
  ],
  "2024": [
@@ -3016,7 +3020,7 @@
   {
    "tournament": "Paris",
    "displayName": "Paris",
-   "cpi": 48.6,
+   "cpi": 48.9,
    "surface": "Hard (Indoor)",
    "aceRate": null,
    "winner": null,
@@ -3025,9 +3029,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.postimg.cc/kXYRkTPr/IMG-6988-2.jpg",
-   "cpiSourceLocal": "/sources/ce8cb7cd8335.webp",
-   "cpiSourceThumb": "/sources/ce8cb7cd8335-t.webp"
+   "cpiSource": "https://i.postimg.cc/Y9Y03Fws/IMG-6988-2.jpg",
+   "cpiSourceLocal": "/sources/9d93286e9c2c.webp",
+   "cpiSourceThumb": "/sources/9d93286e9c2c-t.webp"
   },
   {
    "tournament": "ATP Finals",
