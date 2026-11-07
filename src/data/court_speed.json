@@ -2192,7 +2192,9 @@
    "holdPct": null,
    "rallyLength": 4.08,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png"
+   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png",
+   "cpiSourceLocal": "/sources/9b1fb258b2e5.webp",
+   "cpiSourceThumb": "/sources/9b1fb258b2e5-t.webp"
   }
  ],
  "2023": [
@@ -2404,7 +2406,9 @@
    "holdPct": null,
    "rallyLength": 4.1,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png"
+   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png",
+   "cpiSourceLocal": "/sources/9b1fb258b2e5.webp",
+   "cpiSourceThumb": "/sources/9b1fb258b2e5-t.webp"
   }
  ],
  "2024": [
