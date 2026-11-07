@@ -3023,7 +3023,7 @@
   {
    "tournament": "Paris",
    "displayName": "Paris",
-   "cpi": 48.9,
+   "cpi": 50,
    "surface": "Hard (Indoor)",
    "aceRate": null,
    "winner": null,
@@ -3032,9 +3032,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.postimg.cc/Y9Y03Fws/IMG-6988-2.jpg",
-   "cpiSourceLocal": "/sources/9d93286e9c2c.webp",
-   "cpiSourceThumb": "/sources/9d93286e9c2c-t.webp"
+   "cpiSource": "https://i.postimg.cc/BnbWnTYb/Screenshot-2026-11-07-at-13-33-48.png",
+   "cpiSourceLocal": "/sources/ec5ab76b736d.webp",
+   "cpiSourceThumb": "/sources/ec5ab76b736d-t.webp"
   },
   {
    "tournament": "ATP Finals",
