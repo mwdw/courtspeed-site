@@ -1530,7 +1530,7 @@
   {
    "tournament": "Canadian Open",
    "displayName": "Montreal",
-   "cpi": 42.8,
+   "cpi": 43.4,
    "surface": "Hard",
    "aceRate": 0.11,
    "winner": "Nadal",
@@ -1538,7 +1538,10 @@
    "ball": "Penn/Head",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://i.postimg.cc/sXZtM2f5/IMG-7057.jpg",
+   "cpiSourceLocal": "/sources/630172174ea0.webp",
+   "cpiSourceThumb": "/sources/630172174ea0-t.webp"
   },
   {
    "tournament": "Cincinnati",
@@ -2189,9 +2192,7 @@
    "holdPct": null,
    "rallyLength": 4.08,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png",
-   "cpiSourceLocal": "/sources/9b1fb258b2e5.webp",
-   "cpiSourceThumb": "/sources/9b1fb258b2e5-t.webp"
+   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png"
   }
  ],
  "2023": [
@@ -2403,9 +2404,7 @@
    "holdPct": null,
    "rallyLength": 4.1,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png",
-   "cpiSourceLocal": "/sources/9b1fb258b2e5.webp",
-   "cpiSourceThumb": "/sources/9b1fb258b2e5-t.webp"
+   "cpiSource": "https://i.ibb.co/JFFmskYT/Screenshot-2024-11-15-at-19-28-57.png"
   }
  ],
  "2024": [
@@ -2592,7 +2591,7 @@
   {
    "tournament": "Paris",
    "displayName": "Paris",
-   "cpi": 45.5,
+   "cpi": 46.6,
    "surface": "Hard (Indoor)",
    "aceRate": 0.133,
    "winner": "Zverev",
@@ -2601,9 +2600,9 @@
    "holdPct": null,
    "rallyLength": 3.78,
    "rad": null,
-   "cpiSource": "https://preview.redd.it/the-court-pace-index-of-2024-masters-v0-8fubhd13voxd1.jpeg?width=640&crop=smart&auto=webp&s=bb1d15bbf98b1c3ac208351162f040ff2c7904f4",
-   "cpiSourceLocal": "/sources/c4fba820c440.webp",
-   "cpiSourceThumb": "/sources/c4fba820c440-t.webp"
+   "cpiSource": "https://i.postimg.cc/sXZtM2f5/IMG-7057.jpg",
+   "cpiSourceLocal": "/sources/630172174ea0.webp",
+   "cpiSourceThumb": "/sources/630172174ea0-t.webp"
   },
   {
    "tournament": "ATP Finals",
@@ -2745,7 +2744,7 @@
   {
    "tournament": "Canadian Open",
    "displayName": "Toronto",
-   "cpi": 44.6,
+   "cpi": 44.7,
    "surface": "Hard",
    "aceRate": 0.112,
    "winner": "Shelton",
@@ -2754,14 +2753,14 @@
    "holdPct": 0.811,
    "rallyLength": 3.7,
    "rad": 0.9531,
-   "cpiSource": "https://pbs.twimg.com/media/GxkcovhWoAAuCzL?format=jpg&name=large",
-   "cpiSourceLocal": "/sources/f15234fc14ff.webp",
-   "cpiSourceThumb": "/sources/f15234fc14ff-t.webp"
+   "cpiSource": "https://i.postimg.cc/sXZtM2f5/IMG-7057.jpg",
+   "cpiSourceLocal": "/sources/630172174ea0.webp",
+   "cpiSourceThumb": "/sources/630172174ea0-t.webp"
   },
   {
    "tournament": "Cincinnati",
    "displayName": "Cincinnati",
-   "cpi": 43,
+   "cpi": 43.7,
    "surface": "Hard",
    "aceRate": 0.123,
    "winner": "Alcaraz",
@@ -2770,9 +2769,9 @@
    "holdPct": null,
    "rallyLength": 3.58,
    "rad": 0.922,
-   "cpiSource": "https://pbs.twimg.com/media/GyQDjTgWgAElTuu?format=jpg&name=medium",
-   "cpiSourceLocal": "/sources/b91a101fe627.webp",
-   "cpiSourceThumb": "/sources/b91a101fe627-t.webp"
+   "cpiSource": "https://i.postimg.cc/sXZtM2f5/IMG-7057.jpg",
+   "cpiSourceLocal": "/sources/630172174ea0.webp",
+   "cpiSourceThumb": "/sources/630172174ea0-t.webp"
   },
   {
    "tournament": "US Open",
