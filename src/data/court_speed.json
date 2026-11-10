@@ -2566,7 +2566,7 @@
   {
    "tournament": "US Open",
    "displayName": "US Open",
-   "cpi": 42.8,
+   "cpi": null,
    "surface": "Hard",
    "aceRate": 0.114,
    "winner": "Sinner",
