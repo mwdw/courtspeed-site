@@ -2825,7 +2825,7 @@
   {
    "tournament": "ATP Finals",
    "displayName": "ATP Finals",
-   "cpi": 40.1,
+   "cpi": 40.4,
    "surface": "Hard (Indoor)",
    "aceRate": 0.12,
    "winner": "Sinner",
@@ -2834,9 +2834,9 @@
    "holdPct": 0.865,
    "rallyLength": 4.06,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/VYv3rNzM/Untitled-2sss.jpg",
-   "cpiSourceLocal": "/sources/1e85336067c7.webp",
-   "cpiSourceThumb": "/sources/1e85336067c7-t.webp"
+   "cpiSource": "https://i.postimg.cc/85pkYZq0/ATP-Finals-CPI-2026.png",
+   "cpiSourceLocal": "/sources/9062c1260425.webp",
+   "cpiSourceThumb": "/sources/9062c1260425-t.webp"
   }
  ],
  "2026": [
@@ -3039,7 +3039,7 @@
   {
    "tournament": "ATP Finals",
    "displayName": "ATP Finals",
-   "cpi": null,
+   "cpi": 45.8,
    "surface": "Hard (Indoor)",
    "aceRate": null,
    "winner": null,
@@ -3047,7 +3047,10 @@
    "ball": "Dunlop",
    "holdPct": null,
    "rallyLength": null,
-   "rad": null
+   "rad": null,
+   "cpiSource": "https://i.postimg.cc/85pkYZq0/ATP-Finals-CPI-2026.png",
+   "cpiSourceLocal": "/sources/9062c1260425.webp",
+   "cpiSourceThumb": "/sources/9062c1260425-t.webp"
   }
  ]
 }
