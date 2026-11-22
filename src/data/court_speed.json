@@ -1484,7 +1484,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.postimg.cc/YSpy1tyf/IMG-0536.jpg"
+   "cpiSource": "https://i.postimg.cc/YSpy1tyf/IMG-0536.jpg",
+   "cpiSourceLocal": "/sources/579140914734.webp",
+   "cpiSourceThumb": "/sources/579140914734-t.webp"
   },
   {
    "tournament": "Rome",
@@ -1538,8 +1540,8 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.postimg.cc/sXZtM2f5/IMG-7057.jpg",
-   "cpiSourceLocal": "/sources/097e835b8426.webp",
-   "cpiSourceThumb": "/sources/097e835b8426-t.webp"
+   "cpiSourceLocal": "/sources/630172174ea0.webp",
+   "cpiSourceThumb": "/sources/630172174ea0-t.webp"
   },
   {
    "tournament": "Cincinnati",
@@ -2603,8 +2605,8 @@
    "rallyLength": 3.78,
    "rad": null,
    "cpiSource": "https://i.postimg.cc/sXZtM2f5/IMG-7057.jpg",
-   "cpiSourceLocal": "/sources/097e835b8426.webp",
-   "cpiSourceThumb": "/sources/097e835b8426-t.webp"
+   "cpiSourceLocal": "/sources/630172174ea0.webp",
+   "cpiSourceThumb": "/sources/630172174ea0-t.webp"
   },
   {
    "tournament": "ATP Finals",
@@ -2756,8 +2758,8 @@
    "rallyLength": 3.7,
    "rad": 0.9531,
    "cpiSource": "https://i.postimg.cc/sXZtM2f5/IMG-7057.jpg",
-   "cpiSourceLocal": "/sources/097e835b8426.webp",
-   "cpiSourceThumb": "/sources/097e835b8426-t.webp"
+   "cpiSourceLocal": "/sources/630172174ea0.webp",
+   "cpiSourceThumb": "/sources/630172174ea0-t.webp"
   },
   {
    "tournament": "Cincinnati",
@@ -2772,8 +2774,8 @@
    "rallyLength": 3.58,
    "rad": 0.922,
    "cpiSource": "https://i.postimg.cc/sXZtM2f5/IMG-7057.jpg",
-   "cpiSourceLocal": "/sources/097e835b8426.webp",
-   "cpiSourceThumb": "/sources/097e835b8426-t.webp"
+   "cpiSourceLocal": "/sources/630172174ea0.webp",
+   "cpiSourceThumb": "/sources/630172174ea0-t.webp"
   },
   {
    "tournament": "US Open",
@@ -2863,7 +2865,9 @@
    "holdPct": 0.822,
    "rallyLength": 4.14,
    "rad": 0.9538,
-   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg"
+   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Miami",
@@ -2877,7 +2881,9 @@
    "holdPct": 0.844,
    "rallyLength": 3.93,
    "rad": 0.97,
-   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg"
+   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -2891,7 +2897,9 @@
    "holdPct": 0.735,
    "rallyLength": 4.62,
    "rad": 0.9835,
-   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg"
+   "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Madrid",
@@ -2906,8 +2914,8 @@
    "rallyLength": 3.84,
    "rad": 0.905,
    "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
-   "cpiSourceLocal": "/sources/0398b793cd47.webp",
-   "cpiSourceThumb": "/sources/0398b793cd47-t.webp"
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Rome",
@@ -2922,8 +2930,8 @@
    "rallyLength": 4.56,
    "rad": 0.977,
    "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
-   "cpiSourceLocal": "/sources/0398b793cd47.webp",
-   "cpiSourceThumb": "/sources/0398b793cd47-t.webp"
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Roland Garros",
@@ -2964,8 +2972,8 @@
    "rallyLength": 4.12,
    "rad": 0.9508,
    "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
-   "cpiSourceLocal": "/sources/0398b793cd47.webp",
-   "cpiSourceThumb": "/sources/0398b793cd47-t.webp"
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Cincinnati",
@@ -2980,8 +2988,8 @@
    "rallyLength": 3.82,
    "rad": 0.9307,
    "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
-   "cpiSourceLocal": "/sources/0398b793cd47.webp",
-   "cpiSourceThumb": "/sources/0398b793cd47-t.webp"
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "US Open",
@@ -3009,8 +3017,8 @@
    "rallyLength": 4.09,
    "rad": 0.9701,
    "cpiSource": "https://i.postimg.cc/7ZQ1nxZT/IMG-7037.jpg",
-   "cpiSourceLocal": "/sources/0398b793cd47.webp",
-   "cpiSourceThumb": "/sources/0398b793cd47-t.webp"
+   "cpiSourceLocal": "/sources/9b0f7a75698e.webp",
+   "cpiSourceThumb": "/sources/9b0f7a75698e-t.webp"
   },
   {
    "tournament": "Paris",
