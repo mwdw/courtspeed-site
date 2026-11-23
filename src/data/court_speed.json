@@ -3039,18 +3039,18 @@
   {
    "tournament": "ATP Finals",
    "displayName": "ATP Finals",
-   "cpi": 45.8,
+   "cpi": 47,
    "surface": "Hard (Indoor)",
    "aceRate": null,
-   "winner": null,
+   "winner": "Alcaraz",
    "elevation": 247,
    "ball": "Dunlop",
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.postimg.cc/85pkYZq0/ATP-Finals-CPI-2026.png",
-   "cpiSourceLocal": "/sources/9062c1260425.webp",
-   "cpiSourceThumb": "/sources/9062c1260425-t.webp"
+   "cpiSource": "https://i.postimg.cc/htW1wjjK/xxxx.jpg",
+   "cpiSourceLocal": "/sources/0b5627f75fc8.webp",
+   "cpiSourceThumb": "/sources/0b5627f75fc8-t.webp"
   }
  ]
 }
