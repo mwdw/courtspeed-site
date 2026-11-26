@@ -1540,8 +1540,8 @@
    "rallyLength": null,
    "rad": null,
    "cpiSource": "https://i.postimg.cc/sXZtM2f5/IMG-7057.jpg",
-   "cpiSourceLocal": "/sources/630172174ea0.webp",
-   "cpiSourceThumb": "/sources/630172174ea0-t.webp"
+   "cpiSourceLocal": "/sources/097e835b8426.webp",
+   "cpiSourceThumb": "/sources/097e835b8426-t.webp"
   },
   {
    "tournament": "Cincinnati",
@@ -2605,8 +2605,8 @@
    "rallyLength": 3.78,
    "rad": null,
    "cpiSource": "https://i.postimg.cc/sXZtM2f5/IMG-7057.jpg",
-   "cpiSourceLocal": "/sources/630172174ea0.webp",
-   "cpiSourceThumb": "/sources/630172174ea0-t.webp"
+   "cpiSourceLocal": "/sources/097e835b8426.webp",
+   "cpiSourceThumb": "/sources/097e835b8426-t.webp"
   },
   {
    "tournament": "ATP Finals",
@@ -2758,8 +2758,8 @@
    "rallyLength": 3.7,
    "rad": 0.9531,
    "cpiSource": "https://i.postimg.cc/sXZtM2f5/IMG-7057.jpg",
-   "cpiSourceLocal": "/sources/630172174ea0.webp",
-   "cpiSourceThumb": "/sources/630172174ea0-t.webp"
+   "cpiSourceLocal": "/sources/097e835b8426.webp",
+   "cpiSourceThumb": "/sources/097e835b8426-t.webp"
   },
   {
    "tournament": "Cincinnati",
@@ -2774,8 +2774,8 @@
    "rallyLength": 3.58,
    "rad": 0.922,
    "cpiSource": "https://i.postimg.cc/sXZtM2f5/IMG-7057.jpg",
-   "cpiSourceLocal": "/sources/630172174ea0.webp",
-   "cpiSourceThumb": "/sources/630172174ea0-t.webp"
+   "cpiSourceLocal": "/sources/097e835b8426.webp",
+   "cpiSourceThumb": "/sources/097e835b8426-t.webp"
   },
   {
    "tournament": "US Open",
@@ -3041,12 +3041,12 @@
    "displayName": "ATP Finals",
    "cpi": 47,
    "surface": "Hard (Indoor)",
-   "aceRate": null,
+   "aceRate": 0.152,
    "winner": "Alcaraz",
    "elevation": 247,
    "ball": "Dunlop",
-   "holdPct": null,
-   "rallyLength": null,
+   "holdPct": 0.856,
+   "rallyLength": 4.01,
    "rad": null,
    "cpiSource": "https://i.postimg.cc/htW1wjjK/xxxx.jpg",
    "cpiSourceLocal": "/sources/0b5627f75fc8.webp",
