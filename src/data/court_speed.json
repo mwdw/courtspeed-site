@@ -228,7 +228,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png"
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png",
+   "cpiSourceLocal": "/sources/94dab49b1312.webp",
+   "cpiSourceThumb": "/sources/94dab49b1312-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -419,7 +421,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png"
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png",
+   "cpiSourceLocal": "/sources/94dab49b1312.webp",
+   "cpiSourceThumb": "/sources/94dab49b1312-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -610,7 +614,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png"
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png",
+   "cpiSourceLocal": "/sources/94dab49b1312.webp",
+   "cpiSourceThumb": "/sources/94dab49b1312-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -804,7 +810,9 @@
    "holdPct": null,
    "rallyLength": null,
    "rad": null,
-   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png"
+   "cpiSource": "https://i.ibb.co/9mG6SPmK/DOWfl7.png",
+   "cpiSourceLocal": "/sources/94dab49b1312.webp",
+   "cpiSourceThumb": "/sources/94dab49b1312-t.webp"
   },
   {
    "tournament": "Monte Carlo",
@@ -2794,7 +2802,9 @@
    "holdPct": 0.83,
    "rallyLength": 4.02,
    "rad": 0.9451,
-   "cpiSource": "https://i.ibb.co/hhSf1B4/G2-UVFo-CXAAEFj-PO-1.jpg"
+   "cpiSource": "https://i.ibb.co/hhSf1B4/G2-UVFo-CXAAEFj-PO-1.jpg",
+   "cpiSourceLocal": "/sources/d53171ed22ec.webp",
+   "cpiSourceThumb": "/sources/d53171ed22ec-t.webp"
   },
   {
    "tournament": "Paris",
